@@ -4,6 +4,8 @@ import Nav from "./sections/Nav";
 import Projects from "./sections/Projects";
 import DeFi from "./sections/DeFi";
 import Author from "./sections/Author";
+import Skills from "./sections/Skills";
+import Footer from "./sections/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Projects />
       <DeFi />
       <Author />
+      <Skills />
+      <Footer />
     </main>
   );
 }
