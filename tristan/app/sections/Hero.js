@@ -1,10 +1,12 @@
+import { playfair } from "./../ui/fonts";
+
 export default function Hero() {
   return (
-    <div className="w-[100vw] h-[88vh]">
+    <div className={`w-[100vw] h-[88vh] ${playfair.className}`}>
       <div className="flex justify-around items-center pt-10">
         <div className="  text-center ">
-          <div className="bg-red-400 mb-8">
-            <h1 className="text-7xl">Tristan Nettles</h1>
+          <div className="bg-red-400 mb-8 w-[50vw]">
+            <h1 className="text-9xl">Tristan Nettles</h1>
             <h2 className="text-5xl">Full Stack Web3 Developer</h2>
 
             <h2 className="text-5xl">DeFi Consultant</h2>

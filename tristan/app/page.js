@@ -1,6 +1,6 @@
 import Hero from "./sections/Hero";
 import About from "./sections/About";
-import Nav from "./sections/Nav";
+import Nav from "./components/layout/Nav";
 import Projects from "./sections/Projects";
 import DeFi from "./sections/DeFi";
 import Author from "./sections/Author";

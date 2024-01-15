@@ -1,5 +1,6 @@
 import "./globals.css";
 import { glass } from "./ui/fonts";
+import { lato } from "./ui/fonts";
 
 export const metadata = {
   title: "Create Next App",
@@ -9,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${glass.className} antialiased`}>{children}</body>
+      <body className={`${lato.className} antialiased`}>{children}</body>
     </html>
   );
 }
