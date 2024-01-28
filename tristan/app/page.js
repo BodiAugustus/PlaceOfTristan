@@ -9,7 +9,7 @@ import Footer from "./sections/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between  max-w-[1600px] mx-auto hero-bg overflow-hidden ">
+    <main className="flex min-h-screen flex-col items-center justify-between  max-w-[1600px] mx-auto hero-bg2 overflow-hidden ">
       <Nav />
       <Hero />
       <About />

@@ -11,31 +11,42 @@ import { playfair } from "./../ui/fonts";
 
 export default function Hero() {
   return (
-    <div className={`w-[100vw] h-[88vh] ${playfair.className} `}>
-      <div className="flex justify-center items-center pt-6 relative">
-        <div className="absolute left-[-40vw] overflow-visible h-[88vh] w-[100vw]">
+    <div className={`w-[100vw] h-[88vh] ${playfair.className}  `}>
+      <div className="flex justify-center items-center pt-6 relative z-10">
+        {/* this div below is for the 3js animation */}
+        <div className="absolute left-[-40vw] overflow-visible h-[88vh] w-[100vw] ">
           {" "}
-          <MeshTube />
+          {/* <MeshTube /> */}
         </div>
-        <div className="  text-center text-gray-200  ">
-          <div className=" mb-8 w-[52vw] ">
-            <h1 className="text-9xl font-bold tracking-wide">
+        <div className="text-center text-platinum relative">
+          <ul className=" mb-8 w-[52vw] ">
+            <li className="text-9xl font-bold tracking-wide ">
               Tristan Nettles
-            </h1>
-            <h2 className="text-5xl mb-2">Full Stack Web3 Developer</h2>
+            </li>
+            <li className="text-5xl mb-2 hover:text-[#00baff] hover:scale-105 transition duration-300 ease-in-out inline-block">
+              Full Stack Web3 Developer
+            </li>
 
-            <div>
-              <h2 className="text-5xl mb-2">DeFi Consultant</h2>
-              <h2 className="text-5xl">Published Author</h2>
-            </div>
-          </div>
+            <li className="text-5xl mb-2 transition duration-300 ease-in-out hover:text-[#00baff] hover:scale-105 inline-block ">
+              DeFi Consultant
+            </li>
+            <br />
+            <li className="text-5xl transition duration-300 ease-in-out hover:text-[#00baff] hover:scale-105 inline-block ">
+              Published Author
+            </li>
+          </ul>
           <HeroCard />
         </div>
 
-        <div className="h-[75vh] w-[40vw] overflow-visible ">
-          <h2 className="h-[100%] w-[100%]">
+        <div className="h-[75vh] w-[40vw] overflow-visible  relative ">
+          <div className="h-[100%] w-[100%] absolute inset-0 bg-[url('/galaxy3.png')] bg-cover bg-center">
+            <div className="absolute inset-0 z-5">
+              {[...Array(10)].map((_, i) => (
+                <div key={i} className={`star star-${i + 1}`}></div>
+              ))}
+            </div>
             <SaturnWithMoon />
-          </h2>
+          </div>
         </div>
       </div>
     </div>
