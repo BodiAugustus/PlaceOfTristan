@@ -22,7 +22,7 @@ export const showcase = [
     id: "2a36",
     image: "/images/cw1.png",
     description:
-      "Full-stack web application that uses Stripe for payments. Built using NextJS with Tailwind CSS and MongoDB & Firebase for data storage.",
+      "Full-stack web application utilizing Stripe for payments. Built with NextJS and Tailwind CSS. Uses both MongoDB & Firebase for data storage with a built-in API.",
     link: "https://www.codeworld.io",
     date: "2023",
     github: "https://github.com/BodiAugustus/codeWorld",
@@ -32,7 +32,7 @@ export const showcase = [
     id: "2a35",
     image: "/images/Ashley-capital-logo.png",
     description:
-      "Decentralized web application that runs on the blockchain. Built using NextJS with Tailwind CSS and Truffle Suites with Solidity.",
+      "Decentralized web application running on the Fantom blockchain. Built using NextJS, Tailwind CSS, Truffle Suites and Solidity. Allows subscriptions via the MetaMask wallet.",
     link: "https://www.ashleydefi.com",
     date: "2023",
     github: "https://github.com/BodiAugustus/ashley_defi",
@@ -53,17 +53,17 @@ export const showcase = [
     id: "2a39",
     image: "/images/ShepherdHeroAlt.jpg",
     description:
-      "SPA built using latest version of React with Tailwind CSS for an upcoming novel. Includes email and form functionality.",
+      "Single page React application built using the latest version of React with Tailwind CSS for styling. Includes email and form functionality by using Firebase for data.",
     link: "https://www.theshepherdnovel.com",
     date: "2023",
     github: "https://github.com/MagentaSpruce/shepherd",
   },
   {
     name: "Hot in the Biscuit",
-    id: "2a39",
+    id: "2a399",
     image: "/images/bonnie.jpg",
     description:
-      "Built using vanilla JavaScript for a local business. Includes full menu with link to food delivery app.",
+      "Built using vanilla JavaScript, HTML5 and CSS3 for a local business. Includes custom logo and full menu design with 3rd-party integration to the Food Panda delivery app.",
     link: "https://www.hotinthebiscuit.com",
     date: "2022",
     github: "https://github.com/TrissNepps/hotinthebiscuitsamui",

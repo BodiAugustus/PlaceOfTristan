@@ -13,14 +13,15 @@ const ProjectCard = () => {
         return (
           <div
             key={id}
-            className={`text-white bg-sky-400 h-[80vh] w-[20vw] border-4 border-white rounded-md ${lato.className}`}
+            className={`text-white bg-sky-400 h-[80vh] w-[20vw] border-4 border-[#00bfff] rounded-md ${lato.className}`}
           >
             <div className="h-[40%] w-[100%] relative">
               <Image
                 src={Filler}
                 alt="Filler"
                 fill
-                className="rounded-md border-b-4 border-white"
+                className="rounded-md border-b-4 border-[#00bfff]"
+                sizes="20vw"
               />
             </div>
             <div className="bg-sky-800 h-[60%]">
@@ -29,14 +30,17 @@ const ProjectCard = () => {
                   {name} | {date}
                 </h2>
               </div>
-              <div className="bg-[#01011d] m-2 h-[55%] mb-3 indent-2 p-2 rounded-md border-4 border-white">
+              <div className="bg-[#01011d] m-2 h-[55%] mb-3 indent-2 p-2 rounded-md border-4 border-[#00bfff]">
                 <p className="text-lg">{description}</p>
               </div>
               <div className="bg-[#0a3d62] h-[23%] flex gap-8 pl-[7.5%]  items-center ">
                 <Link href={github}>
-                  <FaGithub className="text-3xl" />
+                  <FaGithub className="text-3xl hover:scale-105 active:scale-100 transition-all duration-300 hover:text-[#00bfff] active:text-white" />
                 </Link>
-                <Link href={link} className="text-xl">
+                <Link
+                  href={link}
+                  className="text-xl hover:scale-105 active:scale-100 transition-all duration-300"
+                >
                   See for Yourself &#x2192;
                 </Link>
               </div>

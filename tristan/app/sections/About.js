@@ -16,6 +16,8 @@ export default function About() {
             src={SpaceImg}
             alt="Image of crypto space pioneer building a castle on the moon."
             fill
+            sizes="70%"
+            priority
           />
         </div>
 
@@ -25,6 +27,8 @@ export default function About() {
             src={Roadmap}
             alt="My personal roadmap"
             fill
+            sizes="100%"
+            priority
           />
         </div>
       </div>
