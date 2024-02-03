@@ -7,9 +7,6 @@ export default function AuthorForms() {
       <div className="bg-sky-900 rounded-md h-full">
         <h4 className="text-center text-4xl mb-0 p-4">Contact Me</h4>
         <EmailAuthorForm />
-        <div>
-          <GetNotified />
-        </div>
       </div>
     </div>
   );

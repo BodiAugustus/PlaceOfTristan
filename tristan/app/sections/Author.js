@@ -17,7 +17,7 @@ export default function Author() {
             src="/the_shepherd_cover_img.jpeg"
             width={350}
             height={400}
-            className="relative border-white border-4 rounded-md"
+            className="relative border-white border-4 rounded-md shadow-sky-400 shadow-xl"
             alt="Cover art for 'The Shepherd - A Bronze Age Tale,' novel of a shepherd boy leading a flock of sheep down an arid looking hill."
           />
           <Button

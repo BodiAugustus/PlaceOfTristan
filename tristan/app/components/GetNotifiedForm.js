@@ -1,7 +1,17 @@
+"use client";
+
+import { useState } from "react";
 import { Button } from "../ui/Button";
+
 import { createEmail } from "../lib/actions";
 
 export default function GetNotified() {
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = async (event) => {
+    event.preventDefault(); //prevent default form
+    setEmail("");
+  };
   return (
     <div>
       <h5 className="text-center text-2xl">
@@ -16,6 +26,10 @@ export default function GetNotified() {
               name="email"
               type="email"
               className="text-black"
+              value={email}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
             />
           </div>
           <Button

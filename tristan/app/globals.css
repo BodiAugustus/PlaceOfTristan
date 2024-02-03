@@ -35,7 +35,7 @@
   background-blend-mode: overlay; /* Blend the gradients with the background color */
 }
 
-.defi-card {
+/* .defi-card {
   background-image: #ffd599;
   background-image: radial-gradient(
       at 20% 24%,
@@ -48,7 +48,7 @@
     radial-gradient(at 40% 33%, hsla(43, 82%, 71%, 1) 0, transparent 59%),
     radial-gradient(at 84% 53%, hsla(260, 88%, 73%, 1) 0, transparent 47%),
     radial-gradient(at 34% 37%, hsla(96, 79%, 67%, 1) 0, transparent 40%);
-}
+} */
 
 .navbar {
   background-color: #fff;
@@ -208,4 +208,48 @@
   color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0829be,
     0 0 82px #0d2bb1, 0 0 92px #0c28a8, 0 0 102px #092086, 0 0 151px #050d33;
+}
+/* Hide the original checkbox */
+.custom-checkbox input {
+  display: none;
+}
+
+/* Create a custom checkbox appearance */
+.custom-checkbox .checkmark {
+  position: relative;
+  height: 18px;
+  width: 18px;
+  background-color: #eee; /* Default background color */
+  display: inline-block;
+  border-radius: 50%; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for color change */
+}
+
+/* Style for when the checkbox is checked */
+.custom-checkbox input:checked + .checkmark {
+  background-color: #01011d; /* Change to your desired color */
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.custom-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox input:checked + .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox .checkmark:after {
+  left: 8px;
+  top: 4px;
+  width: 4px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
 }
