@@ -1,5 +1,4 @@
 import "./globals.css";
-import { glass } from "./ui/fonts";
 import { lato } from "./ui/fonts";
 
 export const metadata = {

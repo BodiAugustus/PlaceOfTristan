@@ -1,11 +1,36 @@
 import EmailAuthorForm from "./EmailAuthorForm";
-import GetNotified from "./GetNotifiedForm";
 
 export default function AuthorForms() {
   return (
-    <div className="bg-[#01011d] h-[65vh] w-[25vw] border-4 border-white rounded-md text-white p-2">
-      <div className="bg-sky-900 rounded-md h-full">
-        <h4 className="text-center text-4xl mb-0 p-4">Contact Me</h4>
+    <div
+      className="bg-[#01011d] h-[65vh]  border-4 border-sky-400 rounded-md text-white p-2
+      xs:w-[85vw] xs:h-[90vh]
+      xs3:h-[70vh]
+      xs4:h-[65vh]
+      xs6:h-[60vh]
+      sm:w-[75vw] 
+      md:w-[75vw] md:h-[50vh]
+      lg:w-[25vw]
+      2xl:h-[70vh]
+    5xl:w-[28vw]
+    "
+    >
+      <div
+        className="bg-sky-900 rounded-md h-full
+      "
+      >
+        <h4
+          className="text-center text-4xl mb-0 p-4
+          sm:pt-8
+          md:pt-12 md:text-5xl
+          lg:pt-8 lg:text-4xl
+          xl:pt-8
+          3xl:pt-16
+        5xl:text-5xl 4xl:pt-20
+        "
+        >
+          Contact Me
+        </h4>
         <EmailAuthorForm />
       </div>
     </div>

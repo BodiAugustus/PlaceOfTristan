@@ -17,7 +17,7 @@ function Saturn() {
       ref={saturnRef}
       geometry={sphereGeometry}
       material={saturnMaterial}
-      scale={[3, 3, 3]}
+      scale={[2.8, 2.8, 2.8]}
     />
   );
 }

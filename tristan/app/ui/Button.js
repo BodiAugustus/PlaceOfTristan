@@ -5,7 +5,7 @@ export function Button({ children, className, ...rest }) {
     <button
       {...rest}
       className={clsx(
-        "flex h-10 items-center rounded-lg transition-all duration-300  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  aria-disabled:cursor-not-allowed aria-disabled:opacity-50 ",
+        "flex  items-center rounded-lg transition-all duration-300  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  aria-disabled:cursor-not-allowed aria-disabled:opacity-50 ",
         className
       )}
     >

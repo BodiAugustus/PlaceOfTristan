@@ -22,7 +22,7 @@ export const useCryptoData = (cryptoSymbol) => {
   const URL = `https://api.coingecko.com/api/v3/coins/${cryptoSymbol}?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=false`;
 
   const { data, error } = useSWR(URL, fetcher, {
-    refreshInterval: 10000,
+    refreshInterval: 1000000,
   });
 
   if (error) {
@@ -41,7 +41,14 @@ export default function TickerTable() {
   const xai = useCryptoData("xai-blockchain");
 
   return (
-    <div className="grid grid-cols-2  bg-sky-800 w-[28vw] h-[50vh] p-2 rounded ">
+    <div
+      className="grid grid-cols-2  bg-sky-800 w-[28vw] h-[50vh] p-2 rounded 
+      xs:w-[80vw]
+      sm:w-[75vw]
+      lg:w-[28vw]
+    5xl:w-[28vw]
+    "
+    >
       <Ticker crypto={ftm} symbol="FTM" />
       <Ticker crypto={equal} symbol="EQUAL" />
       <Ticker crypto={solid} symbol="SOLID" />

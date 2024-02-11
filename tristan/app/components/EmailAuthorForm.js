@@ -6,30 +6,70 @@ import { createMessage } from "../lib/actions";
 export default function EmailAuthorForm() {
   return (
     <div>
-      <h5 className="text-center text-2xl">Send me a message:</h5>
+      <h5
+        className="text-center text-2xl
+        md:text-3xl md:mb-5
+        lg:text-2xl lg:mb-0
+      5xl:text-3xl
+      "
+      >
+        Send me a message:
+      </h5>
       <form
         action={createMessage}
-        className="flex flex-col text-center mb-5 p-4 "
+        className="flex flex-col text-center mb-5 p-4  "
       >
-        <div className="flex flex-col items-start gap-4 justify-start">
-          <div className="flex gap-8  w-[100%]">
-            <label htmlFor="email" className="text-xl">
+        <div
+          className="flex flex-col items-start gap-3 justify-start
+          md:gap-10
+          lg:gap-3
+          3xl:gap-5
+        5xl:gap-7 
+        "
+        >
+          <div
+            className="flex gap-8 justify-center   w-[100%]
+          5xl:w-[82%]
+          "
+          >
+            <label
+              htmlFor="email"
+              className="text-xl
+            5xl:text-2xl
+            "
+            >
               Email:
             </label>
             <input
-              className="text-black w-[60%] rounded-md indent-1"
+              className="text-[#01011d] w-[60%] rounded-md indent-1
+              5xl:text-xl 5xl:w-[50%] "
               id="email"
               name="email"
               type="email"
               placeholder="Your email here..."
             />
           </div>
-          <div className="flex gap-1  w-[100%] ">
-            <label htmlFor="message" className="text-xl">
+          <div
+            className="flex gap-1 justify-center w-[100%] 
+            md:w-[75%]
+            lg:w-[100%]
+            3xl:w-[91%]
+            4xl:w-[83%]
+          5xl:w-[80%]
+          "
+          >
+            <label
+              htmlFor="message"
+              className="text-xl
+            5xl:text-2xl
+            "
+            >
               Message:
             </label>
             <textarea
-              className="rounded-md indent-1 text-black resize-none"
+              className="rounded-md indent-1 text-[#01011d] resize-none 
+               5xl:text-xl
+              "
               name="message"
               id="message"
               required
@@ -41,20 +81,40 @@ export default function EmailAuthorForm() {
             ></textarea>
           </div>
           <div className="flex flex-col gap-2">
-            <label className="px-2 ">
+            <label
+              className="px-2 
+              md:px-6
+              lg:px-2
+            5xl:text-xl 5xl:px-6
+            "
+            >
               Check the box if you would like to be notified about upcoming
               releases.
             </label>
-            <label class="custom-checkbox">
+            <label
+              className="custom-checkbox
+            5xl:-mb-2
+            "
+            >
               <input name="emailList" id="emailList" type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
           </div>
           <Button
-            className="bg-sky-800 w-[30%] px-4 py-2 hover:scale-105 hover:bg-sky-600 active:scale-100 active:bg-[#00bfff]
-          text-lg mx-auto border-4 border-white"
+            className="bg-sky-800 w-[30%] px-4 py-2 hover:scale-105 hover:bg-sky-600 active:scale-100 active:bg-[#00bfff] h-12
+          text-lg mx-auto border-4 border-white
+          xs:w-[43%]
+          xs6:w-[36%]
+          sm:w-[22%]
+          md:w-[19%]
+          lg:w-[45%]
+          xl:w-[35%]
+          2xl:w-[30%]
+          4xl:w-[24%]
+          5xl:text-2xl 5xl:w-[20%] 
+          "
           >
-            submit
+            Submit
           </Button>
         </div>
       </form>

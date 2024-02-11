@@ -4,12 +4,21 @@ import Card from "../ui/card";
 export default function Projects() {
   return (
     <div
-      className="  h-[100vh] w-[100vw] p-8
+      className="  h-[100vh] w-[100vw] md:p-8 max-w-[2200px] mx-auto
+      xs:h-[295vh] xs:p-2
+      xs3:h-[255vh]
+      sm:h-[270vh]
+      md:h-[262vh]
+      lg:h-[100vh]
       
       "
     >
       <h2
-        className="text-white text-center mb-6 text-5xl
+        className="text-white text-center md:mb-6 
+        xs:text-2xl xs:mb-1
+        xs3:text-3xl
+        2xl:text-5xl
+        5xl:text-6xl
     
       
       "
@@ -19,8 +28,12 @@ export default function Projects() {
 
       <div
         className="
-      md:grid md:grid-cols-2
-      lg:grid-cols-4 ml-10
+        xs:grid xs:grid-cols-1 xs:gap-8
+        sm:gap-10
+     md:grid-ols-1 md:gap-14
+      lg:grid lg:grid-cols-3 
+      2xl:grid-cols-4 2xl:gap-0
+      
       "
       >
         <ProjectCard />

@@ -9,8 +9,19 @@ export default function Footer() {
       >
         Tristan Nettles
       </Link>
-      <div className=" w-full text-center translate-y-16  ">
-        <p className=" text-sm ">Web3 Developer - DeFi Consultant - Author</p>
+      <div
+        className=" w-full text-center 
+      xs:translate-y-12
+      xs3:translate-y-16
+      sm:translate-y-16  "
+      >
+        <p
+          className=" text-sm 
+        4xl:text-lg 
+        "
+        >
+          Web3 Developer - DeFi Consultant - Author
+        </p>
       </div>
     </footer>
   );

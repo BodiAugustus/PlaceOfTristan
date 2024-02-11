@@ -35,7 +35,7 @@
   background-blend-mode: overlay; /* Blend the gradients with the background color */
 }
 
-/* .defi-card {
+.defi-card {
   background-image: #ffd599;
   background-image: radial-gradient(
       at 20% 24%,
@@ -48,7 +48,7 @@
     radial-gradient(at 40% 33%, hsla(43, 82%, 71%, 1) 0, transparent 59%),
     radial-gradient(at 84% 53%, hsla(260, 88%, 73%, 1) 0, transparent 47%),
     radial-gradient(at 34% 37%, hsla(96, 79%, 67%, 1) 0, transparent 40%);
-} */
+}
 
 .navbar {
   background-color: #fff;
@@ -57,7 +57,6 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle highlight at the bottom */
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Soft glow effect */
   -webkit-backdrop-filter: blur(10px); /* For Safari */
-  border-radius: 10px; /* Optional: Rounded corners */
 }
 
 @keyframes waveMotion {
@@ -252,4 +251,26 @@
   border: solid white;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
+}
+
+/* Styles for the scrollbar track */
+.div-scrollbar::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Light grey track */
+}
+
+/* Styles for the scrollbar handle */
+.div-scrollbar::-webkit-scrollbar-thumb {
+  background: #01011d; /* Dark grey handle */
+  border-radius: 8px; /* Optional: Rounded corners for the handle */
+}
+
+/* Styles for the scrollbar itself (width, height) */
+.div-scrollbar::-webkit-scrollbar {
+  width: 12px; /* Width of the vertical scrollbar */
+  height: 12px; /* Height of the horizontal scrollbar */
+}
+
+.card-color {
+  background: linear-gradient(145deg, #0a5a8c 0%, #00baff 100%);
+  box-shadow: 0 12px 20px rgba(12, 120, 208, 0.8);
 }

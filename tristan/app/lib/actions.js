@@ -1,6 +1,8 @@
 "use server";
 import validator from "validator";
 import { sql } from "@vercel/postgres";
+import { revalidatePath } from "next/cache";
+import { redirect } from "next/navigation";
 
 export async function createMessage(formData) {
   const email = formData.get("email");
@@ -48,11 +50,13 @@ export async function createMessage(formData) {
       VALUES (${user_id}, ${sanitizedMessage})`;
 
     // Provide feedback for successful operation
-    return {
-      success: true,
-      message: "Message created successfully",
-      userId: user_id,
-    };
+
+    redirect("/tristan/app/page");
+    // return {
+    //   success: true,
+    //   message: "Message created successfully",
+    //   userId: user_id,
+    // };
   } catch (error) {
     console.error("Error creating message:", error);
     // Provide feedback for failed operation

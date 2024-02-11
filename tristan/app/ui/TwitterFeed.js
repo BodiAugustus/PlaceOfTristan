@@ -22,7 +22,12 @@ const TwitterFeed = () => {
   return (
     <div
       className="twitter-feed-container
-     h-[50vh] w-[28vw] overflow-y-scroll bg-white"
+     overflow-y-scroll div-scrollbar bg-white
+     xs:w-[80vw] xs:h-[80vh]
+     xs4:h-[65vh]
+     sm:w-[75vw]
+     lg:w-[28vw]
+     5xl:w-[28vw]"
     >
       <a
         className="twitter-timeline"
