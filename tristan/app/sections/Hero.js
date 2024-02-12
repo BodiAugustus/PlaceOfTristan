@@ -27,7 +27,7 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
           className="text-center text-platinum relative   max-w-[850px] mx-auto
         xs:absolute xs:z-20 
         xs2:-mt-12
-        2xl:-mt-36
+        2xl:-mt-24
         
         "
         >
