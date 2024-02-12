@@ -15,7 +15,8 @@ const SkillsList = () => {
       className=" mx-auto w-[100vw] h-[70vh] max-w-[1800px]
       xs:h-[85vh]
       xs3:h-[65vh]
-      xs4:h-[60vh]
+      xs4:h-[70vh]
+      xs6:h-[60vh]
     md:h-[40vh]
     lg:h-[70vh]
     2xl:h-[80vh]
@@ -25,6 +26,7 @@ const SkillsList = () => {
         className="p-3  mb-5 text-white  text-center
         xs:text-2xl
         xs3:text-3xl
+        md:text-5xl
         
       5xl:text-6xl
       "
@@ -72,6 +74,7 @@ const SkillsList = () => {
                   </h4>
                   <p
                     className="mt-2 text-xl
+                    md:text-4xl
                   4xl:text-3xl
                   "
                   >

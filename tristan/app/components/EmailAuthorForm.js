@@ -28,20 +28,20 @@ export default function EmailAuthorForm() {
         "
         >
           <div
-            className="flex gap-8 justify-center   w-[100%]
+            className="flex flex-col gap-1 justify-start items-start   w-[100%]
           5xl:w-[82%]
           "
           >
             <label
               htmlFor="email"
-              className="text-xl
+              className="text-xl 
             5xl:text-2xl
             "
             >
               Email:
             </label>
             <input
-              className="text-[#01011d] w-[60%] rounded-md indent-1
+              className="text-[#01011d] w-[100%] rounded-md indent-1
               5xl:text-xl 5xl:w-[50%] "
               id="email"
               name="email"
@@ -50,7 +50,7 @@ export default function EmailAuthorForm() {
             />
           </div>
           <div
-            className="flex gap-1 justify-center w-[100%] 
+            className="flex flex-col gap-1 justify-start items-start xs:w-[100%] 
             md:w-[75%]
             lg:w-[100%]
             3xl:w-[91%]
@@ -67,7 +67,8 @@ export default function EmailAuthorForm() {
               Message:
             </label>
             <textarea
-              className="rounded-md indent-1 text-[#01011d] resize-none 
+              className="rounded-md indent-1 text-[#01011d] resize-none
+              w-[100%] 
                5xl:text-xl
               "
               name="message"
@@ -105,6 +106,7 @@ export default function EmailAuthorForm() {
           text-lg mx-auto border-4 border-white
           xs:w-[43%]
           xs6:w-[36%]
+          xs8:w-[33%]
           sm:w-[22%]
           md:w-[19%]
           lg:w-[45%]

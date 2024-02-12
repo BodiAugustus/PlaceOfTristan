@@ -15,7 +15,7 @@ export default function DeFi() {
       className="h-[100vh] w-[100vw] md:p-8 max-w-[2200px] mx-auto
       xs:h-[285vh] xs:p-2
       xs3:h-[245vh]
-      xs4:h-[225vh]
+      xs4:h-[240vh]
       sm:h-[215vh]
     md:h-[195vh]
     lg:h-[100vh]"
@@ -35,7 +35,7 @@ export default function DeFi() {
         className="bg-custom-gradient border-sky-400 border-4 rounded-md flex justify-around items-center h-[80vh] shadow-xl shadow-sky-400
         xs:flex-col xs:h-[270vh]
         xs3:h-[230vh]
-        xs4:h-[210vh]
+        xs4:h-[225vh]
         sm:h-[195vh]
         md:h-[185vh]
         lg:flex-row lg:h-[80vh]

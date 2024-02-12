@@ -8,7 +8,10 @@ export default function Author() {
     <div
       className="h-[100vh] w-[100vw] md:p-8 max-w-[2200px] mx-auto 
       xs:h-[275vh] xs:p-2
-      xs3:h-[230vh]
+     
+      xs3:h-[250vh]
+      xs4:h-[265vh]
+      xs6:h-[225vh]
       sm:h-[280vh]
     md:h-[215vh]
     lg:h-[120vh]"
@@ -17,7 +20,7 @@ export default function Author() {
         className="text-center  md:pb-5 text-white 
         xs:text-2xl xs:mb-1
         xs3:text-3xl
-        2xl:text-5xl 2xl:mb-3
+        2xl:text-5xl 2xl:mb-0
       5xl:text-6xl
       "
       >
@@ -26,7 +29,9 @@ export default function Author() {
       <div
         className=" justify-around flex h-[80vh] p-4 items-center border-4 border-sky-400 rounded-md bg-custom-gradient2 shadow-xl shadow-sky-400
         xs:flex-col xs:h-[260vh]
-        xs3:h-[220vh]
+        xs3:h-[235vh]
+        xs4:h-[250vh]
+        xs6:h-[215vh]
         xs:w-[95vw] xs:p-2
         sm:h-[260vh]
         md:h-[200vh] 
@@ -91,6 +96,7 @@ export default function Author() {
            xs3:bottom-[4.8rem] xs3:left-[5.5rem]
            xs4:left-[6rem]
            xs6:bottom-[5.5rem] xs6:left-[6.5rem]
+           xs8:bottom-[6rem] xs8:left-[7.5rem]
            sm:bottom-[9rem] sm:left-48
            md:bottom-[9.5rem] md:left-52
            lg:bottom-[4.5rem] lg:left-20

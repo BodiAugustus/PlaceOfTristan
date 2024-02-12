@@ -14,9 +14,9 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
     <div className={`w-[100vw] h-[88vh] ${playfair.className}  max-w-[2200px]`}>
       <div
         className="flex  justify-center items-center xs:relative z-10
-        xs:pt-20
         
-        sm:pt-20
+        xs:pt-4
+        
         
       xl:pt-24
        "
@@ -25,7 +25,7 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
 
         <div
           className="text-center text-platinum relative   max-w-[850px] mx-auto
-        xs:absolute xs:z-20 
+        xs:absolute xs:z-20 xs:pt-20 md:pt-0
         xs2:-mt-12
         2xl:-mt-24
         
@@ -103,8 +103,7 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
         </div>
 
         <div
-          className="xs:relative lg:static h-[75vh]  max-w-[850px]  relative  p-4 w-[40vw] mx-auto overflow-hidden
-
+          className="xs:relative lg:static h-[75vh] max-w-[850px]  relative p-4 w-[40vw] mx-auto overflow-hidden
           xs:w-[95vw]
           xs3:w-[95vw]
           lg:w-[40vw]
@@ -112,7 +111,7 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
           2xl:w-[40vw]
           3xl:w-[40vw]
           4xl:w-[40vw]
-        5xl:w-[40vw]"
+          5xl:w-[40vw]"
         >
           <div className="h-[100%] w-[100%] absolute inset-0 bg-[url('/galaxy3.png')] bg-cover bg-center">
             <div className="absolute inset-0 z-5">

@@ -5,9 +5,9 @@ export default function AuthorForms() {
     <div
       className="bg-[#01011d] h-[65vh]  border-4 border-sky-400 rounded-md text-white p-2
       xs:w-[85vw] xs:h-[90vh]
-      xs3:h-[70vh]
-      xs4:h-[65vh]
-      xs6:h-[60vh]
+      xs3:h-[80vh]
+      xs4:h-[85vh]
+      xs6:h-[65vh]
       sm:w-[75vw] 
       md:w-[75vw] md:h-[50vh]
       lg:w-[25vw]
