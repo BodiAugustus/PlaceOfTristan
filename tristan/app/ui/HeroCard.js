@@ -36,7 +36,7 @@ export default function HeroCard({
         className={`p-3 justify-end items-start flex-col rounded-xl   
         xs:w-[90%] xs:h-[90%]
         xs:z-20 
-        xs2:w-[95%] xs2:h-[85%] 
+        xs2:w-[95%] xs2:h-[80%] 
         xs6:h-[65%]
         sm:w-[80%] md:h-[70%] 
         lg:w-[75%] 
@@ -131,7 +131,7 @@ export default function HeroCard({
             {userAddress ? (
               <p
                 className="text-white font-light text-sm text-center relative 
-            sm:-top-4 sm:text-2xl
+            xs:-top-4 sm:text-2xl
             ms:text-xl 
             md:text-2xl 
             lg:text-base 
@@ -166,7 +166,7 @@ export default function HeroCard({
               4xl:text-3xl 4xl:top-3
               5xl:top-2"
               >
-                Currently on:1{" "}
+                Currently on:{" "}
                 <span
                   className="md:text-2xl 
                   lg:text-sm 
@@ -184,7 +184,7 @@ export default function HeroCard({
                 xl:text-lg xl:top-3
               4xl:text-3xl 4xl:top-2"
               >
-                Currently on{" "}
+                Currently on:{" "}
                 <span
                   className="md:text-xl lg:text-sm xl:text-xl text-white
                 4xl:text-2xl 4xl:top-2"

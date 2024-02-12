@@ -96,7 +96,7 @@ export default function Nav({ connectWallet, userAddress, isLoading }) {
       className={`w-[100vw] h-[12vh] px-4 flex navbar items-center justify-between ${lato.className} max-w-[2200px] `}
     >
       <div
-        className="flex items-center  
+        className="flex items-center justify-between w-[100%]
       xs:px-0
       md:px-2 "
       >

@@ -92,7 +92,7 @@ const ProjectCard = () => {
                 className="bg-[#0a3d62] h-[23%] flex gap-8 pl-[7.5%]  items-center
                 xs:h-[19%]
                 xs2:h-[22%]
-                xs4:h-[25%]
+                xs4:h-[24%]
                 sm:h-[25%]
                 md:h-[31%] md:gap-16
                 lg:h-[24%] lg:gap-8
