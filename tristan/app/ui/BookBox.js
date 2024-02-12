@@ -68,6 +68,7 @@ export default function BookBox() {
           className="font-bold
           xs:text-sm
           lg:text-base
+          2xl:text-2xl
         5xl:text-3xl
         "
         >
@@ -78,6 +79,7 @@ export default function BookBox() {
             className="hover:scale-105 active:scale-100 transition-all duration-300
             xs:text-sm
             lg:text-base
+            2xl:text-2xl
           5xl:text-3xl
           "
           >

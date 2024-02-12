@@ -53,6 +53,7 @@ export default function HeroCard({
                   sm:w-16 sm:h-16
                   md:w-20 md:h-20 
                   lg:w-14 lg:h-14 
+                  2xl:w-16 2xl:h-16
                   4xl:w-16 4xl:h-16
                   5xl:w-20 5xl:h-20"
             >

@@ -18,7 +18,8 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
         
         sm:pt-20
         
-      xl:pt-20 "
+      xl:pt-24
+       "
       >
         {/* this div below is for the 3js animation */}
 
@@ -26,6 +27,8 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
           className="text-center text-platinum relative   max-w-[850px] mx-auto
         xs:absolute xs:z-20 
         xs2:-mt-12
+        2xl:-mt-36
+        
         "
         >
           <ul
@@ -35,7 +38,8 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
             xs4:gap-1
             xs6:mb-10
           sm:gap-1
-          lg:gap-0  "
+          lg:gap-0 
+          2xl:mb-12 2xl:gap-2 "
           >
             <li
               className=" font-bold tracking-wide mb-4

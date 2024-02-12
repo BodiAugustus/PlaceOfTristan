@@ -25,6 +25,7 @@ const SkillsList = () => {
         className="p-3  mb-5 text-white  text-center
         xs:text-2xl
         xs3:text-3xl
+        
       5xl:text-6xl
       "
       >
@@ -60,6 +61,7 @@ const SkillsList = () => {
               <div
                 className="flex justify-between text-2xl
                 xs:text-lg
+                md:text-4xl
               4xl:text-4xl
               "
               >
@@ -97,6 +99,7 @@ const SkillsList = () => {
                     <p
                       className="my-auto flex text-2xl
                       xs:text-base
+                      md:text-4xl
                     4xl:text-4xl
                     "
                     >
