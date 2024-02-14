@@ -27,34 +27,28 @@ export default function BookBox() {
         "
         >
           <p className="indent-4 first-letter:text-2xl ">
-            A young shepherd boy living between the no mans land of civilization
-            and beyond is taken and made slave by an invading army enroute to
-            his homeland.
+            In the sprawling landscape of the Bronze Age, a young shepherd boy
+            finds himself teetering on the fragile boundary between
+            civilization's edge and the untamed wilderness. His humble existence
+            is shattered when an invading force storms through his homeland,
+            snatching him away to a life of enslavement. Under the iron-fisted
+            rule of a notorious and undefeated general known for his ruthless
+            tactics, the boy, with his unassuming demeanor and quick-witted
+            charm meaneuvers himself into a peculiar position within the
+            commander's ranks.
           </p>
           <p>
-            Led by an undefeated general with a penchant for cruelty, this
-            unassuming adolescent careens his way into the commanders good
-            graces through a witless charm.
-          </p>
-          <p>
-            Finding out only all too late that the little shepherd boy was not
-            at all what he had seemed, the unconquerable general and his army
-            are led to their doom.
-          </p>
-          <p className="indent-4 first-letter:text-2xl ">
-            A young shepherd boy living between the no mans land of civilization
-            and beyond is taken and made slave by an invading army enroute to
-            his homeland.
-          </p>
-          <p>
-            Led by an undefeated general with a penchant for cruelty, this
-            unassuming adolescent careens his way into the commanders good
-            graces through a witless charm.
-          </p>
-          <p>
-            Finding out only all too late that the little shepherd boy was not
-            at all what he had seemed, the unconquerable general and his army
-            are led to their doom.
+            As he navigates the treacherous corridors of power, the shepherd boy
+            discovers how to survive in the midst of brutality, using his guile
+            to earn favor in the eyes of the general. Yet, hidden behind the
+            facade of innocence lies a clever mind honed by the unforgiving
+            landscapes he once roamed as a shepherd. When the truth about the
+            boy's true nature begins to unravel, it's a revelation that arrives
+            too late for the general and his army. Through twists of fate and
+            the cunning manipulation of circumstances, the general and his
+            forces find themselves marching toward their downfall, orchestrated
+            by the young shepherd whose true strength lies beyond the constraits
+            of his chains.
           </p>
         </div>
       </div>
