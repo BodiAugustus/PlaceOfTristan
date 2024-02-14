@@ -19,6 +19,7 @@ const SkillsList = () => {
       xs6:h-[60vh]
     md:h-[40vh]
     lg:h-[70vh]
+    xl:h-[95vh]
     2xl:h-[80vh]
     "
     >

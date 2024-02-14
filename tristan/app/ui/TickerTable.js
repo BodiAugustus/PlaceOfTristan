@@ -46,6 +46,8 @@ export default function TickerTable() {
       xs:w-[80vw]
       sm:w-[75vw]
       lg:w-[28vw]
+      xl:h-[65vh]
+      2xl:h-[60vh]
     5xl:w-[28vw]
     "
     >

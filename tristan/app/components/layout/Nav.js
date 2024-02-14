@@ -129,8 +129,8 @@ export default function Nav({ connectWallet, userAddress, isLoading }) {
 
       {/* Desktop Menu */}
       <ul
-        className={`hidden lg:flex gap-20 lg:gap-6 xl:gap-36
-        2xl:gap-20 2xl:text-4xl
+        className={`hidden lg:flex gap-20 lg:gap-6 xl:gap-20
+        2xl:gap-20 xl:text-4xl
         5xl:gap-36 ${
           isMenuOpen ? "flex" : "hidden"
         } flex-col lg:flex-row lg:items-center`}

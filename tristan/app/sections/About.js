@@ -11,14 +11,14 @@ export default function About() {
       md:h-[140vh]
     lg:h-[130vh]
 
-    xl:h-100vh
+    xl:h-[105vh]
     2xl:h-[100vh]"
     >
       <h2
         className=" text-center text-white md:mb-3
         xs:text-2xl xs:mb-1
         xs3:text-3xl
-        2xl:text-5xl 2xl:pt-6
+        xl:text-5xl xl:pt-6
       5xl:text-6xl
       "
       >

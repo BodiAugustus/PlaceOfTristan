@@ -165,6 +165,8 @@ export default function PaymentForm() {
       xs3:h-[60vh]
       sm:w-[75vw] 
       lg:w-[28vw]
+      xl:h-[64vh]
+      2xl:h-[60vh]
       5xl:w-[28vw]
 
       "
@@ -177,7 +179,7 @@ export default function PaymentForm() {
           sm:text-3xl
           md:text-4xl 
           lg:text-2xl
-          xl:text-3xl
+          xl:text-2xl
         5xl:text-4xl
         "
         >
@@ -187,7 +189,7 @@ export default function PaymentForm() {
           className="p-2 text-center
           md:text-2xl 
           lg:text-xl
-          2xl:text-lg
+          xl:text-lg
         5xl:text-xl
         "
         >
@@ -201,7 +203,7 @@ export default function PaymentForm() {
           sm:pt-4
           md:text-2xl md:pt-14
           lg:text-xl lg:pt-2
-          2xl:text-base
+          xl:text-base
           
         5xl:text-xl
         "

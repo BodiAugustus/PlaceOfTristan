@@ -13,6 +13,7 @@ export default function AuthorForms() {
       sm:w-[75vw] 
       md:w-[75vw] md:h-[50vh]
       lg:w-[25vw]
+      xl:h-[80vh]
       2xl:h-[70vh]
       5xl:w-[28vw]
     "

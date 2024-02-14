@@ -64,7 +64,7 @@ const ProjectCard = () => {
                   className={`text-center p-2 pt-4 text-2xl
                   md:text-4xl
                   lg:text-4xl
-                  2xl:text-3xl
+                  xl:text-3xl
                 5xl:text-4xl  `}
                 >
                   {name} | {date}
@@ -99,7 +99,7 @@ const ProjectCard = () => {
                 sm:h-[25%]
                 md:h-[31%] md:gap-16
                 lg:h-[24%] lg:gap-8
-                xl:h-[25%]
+                xl:h-[21%]
                 2xl:h-[22%]
                 3xl:h-[27%]
                 4xl:h-[31%]
@@ -122,7 +122,7 @@ const ProjectCard = () => {
                   xs4:text-2xl
                   sm:text-3xl
                   md:text-4xl 
-                  2xl:text-2xl
+                  xl:text-2xl
                   4xl:text-2xl
                   5xl:text-3xl"
                 >

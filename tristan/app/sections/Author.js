@@ -21,7 +21,7 @@ export default function Author() {
         className="text-center md:pb-5 text-white 
         xs:text-2xl xs:mb-1
         xs3:text-3xl
-        2xl:text-5xl 2xl:mb-0
+        xl:text-5xl xl:mb-0
         5xl:text-6xl
       "
       >
