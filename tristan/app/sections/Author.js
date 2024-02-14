@@ -8,20 +8,21 @@ export default function Author() {
     <div
       className="h-[100vh] w-[100vw] md:p-8 max-w-[2200px] mx-auto 
       xs:h-[275vh] xs:p-2
-     
       xs3:h-[250vh]
       xs4:h-[265vh]
+      xs5:h-[235vh]
       xs6:h-[225vh]
+      xs8:h-[235vh]
       sm:h-[280vh]
-    md:h-[215vh]
-    lg:h-[120vh]"
+      md:h-[215vh]
+      lg:h-[120vh]"
     >
       <h2
-        className="text-center  md:pb-5 text-white 
+        className="text-center md:pb-5 text-white 
         xs:text-2xl xs:mb-1
         xs3:text-3xl
         2xl:text-5xl 2xl:mb-0
-      5xl:text-6xl
+        5xl:text-6xl
       "
       >
         Author's Corner
@@ -31,7 +32,9 @@ export default function Author() {
         xs:flex-col xs:h-[260vh]
         xs3:h-[235vh]
         xs4:h-[250vh]
+        xs5:h-[220vh]
         xs6:h-[215vh]
+        xs8:h-[225vh]
         xs:w-[95vw] xs:p-2
         sm:h-[260vh]
         md:h-[200vh] 
@@ -88,7 +91,6 @@ export default function Author() {
           />
           <Button
             className="bg-orange-700 rounded-md shadow-xl shadow-orange-500 text-orange-300 font-bold text-2xl text-center hover:scale-110 active:scale-100 px-4 py-2 border-4 border-orange-500
-
            cursor-pointer absolute z-10 left-28 
            bottom-[5.5rem]
            xs:bottom-[4rem] xs:left-[4.5rem]

@@ -3,16 +3,18 @@ import EmailAuthorForm from "./EmailAuthorForm";
 export default function AuthorForms() {
   return (
     <div
-      className="bg-[#01011d] h-[65vh]  border-4 border-sky-400 rounded-md text-white p-2
+      className="bg-[#01011d] h-[65vh] border-4 border-sky-400 rounded-md text-white p-2
       xs:w-[85vw] xs:h-[90vh]
       xs3:h-[80vh]
       xs4:h-[85vh]
+      xs5:h-[65vh]
       xs6:h-[65vh]
+      xs8:h-[70vh]
       sm:w-[75vw] 
       md:w-[75vw] md:h-[50vh]
       lg:w-[25vw]
       2xl:h-[70vh]
-    5xl:w-[28vw]
+      5xl:w-[28vw]
     "
     >
       <div
@@ -26,7 +28,7 @@ export default function AuthorForms() {
           lg:pt-8 lg:text-4xl
           xl:pt-8
           3xl:pt-16
-        5xl:text-5xl 4xl:pt-20
+          5xl:text-5xl 4xl:pt-20
         "
         >
           Contact Me
