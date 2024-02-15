@@ -7,14 +7,14 @@ export default function AuthorForms() {
       xs:w-[85vw] xs:h-[90vh]
       xs3:h-[80vh]
       xs4:h-[85vh]
-      xs5:h-[65vh]
+      xs5:h-[70vh]
       xs6:h-[65vh]
       xs8:h-[70vh]
       sm:w-[75vw] 
       md:w-[75vw] md:h-[50vh]
       lg:w-[25vw]
       xl:h-[80vh]
-      2xl:h-[85vh]
+      2xl:h-[80vh]
       5xl:w-[28vw]
     "
     >
