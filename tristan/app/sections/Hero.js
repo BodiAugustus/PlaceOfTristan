@@ -63,7 +63,7 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
               md:text-5xl
             lg:text-4xl
             xl:text-4xl
-            2xl:5xl
+            2xl:text-5xl
             4xl:text-6xl
             5xl:text-7xl"
             >

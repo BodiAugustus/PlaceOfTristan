@@ -24,7 +24,7 @@ export default function DeFi() {
         className="text-center text-white md:pb-5
         xs:text-2xl xs:mb-1
         xs3:text-3xl
-        xl:text-5xl 2xl:mb-3
+        xl:text-5xl 2xl:mb-1
         
       5xl:text-6xl
       "
