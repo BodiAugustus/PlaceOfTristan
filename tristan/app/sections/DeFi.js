@@ -52,9 +52,9 @@ export default function DeFi() {
           </h3>
           <PaymentForm />
         </div>
-        <div className="bg-sky-800 rounded-md border-[#00bfff] border-4 ">
+        <div className="bg-sky-800 rounded-md border-[#00bfff] border-4">
           <h3
-            className="flex justify-center items-center gap-4 text-4xl p-2 text-white border-b-4 border-[#00bfff]
+            className="flex justify-center items-center gap-4 md:text-4xl p-2 text-white border-b-4 border-[#00bfff]
           xs:text-2xl"
           >
             X - Feed
@@ -66,7 +66,7 @@ export default function DeFi() {
         </div>
         <div className="border-4 border-sky-400 rounded-md">
           <h3
-            className="text-center text-4xl p-2 text-white border-b-4 border-sky-400 bg-sky-800
+            className="text-center md:text-4xl p-2 text-white border-b-4 border-sky-400 bg-sky-800
           
           xs:text-2xl"
           >

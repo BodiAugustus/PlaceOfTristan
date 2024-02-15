@@ -40,8 +40,8 @@ export default function HeroCard({
         xs6:h-[65%]
         sm:w-[80%] md:h-[70%] 
         lg:w-[75%] 
-        xl:w-[70%]
-        2xl:w-[75%]
+        xl:w-[72%]
+        2xl:w-[70%]
         3xl:w-[65%] xl:h-[100%]
         5xl:w-[65%]
         ${

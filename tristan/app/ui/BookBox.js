@@ -12,7 +12,7 @@ export default function BookBox() {
         `}
       >
         <h4
-          className="text-center text-4xl mb-5
+          className="text-center lg:text-4xl mb-5
           xs:text-2xl
           xs3:mb-2
           md:pt-2
@@ -73,6 +73,7 @@ export default function BookBox() {
             className="hover:scale-105 active:scale-100 transition-all duration-300
             xs:text-sm
             lg:text-base
+            xl:text-lg
             2xl:text-2xl
           5xl:text-3xl
           "
