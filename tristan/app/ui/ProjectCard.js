@@ -94,7 +94,7 @@ const ProjectCard = () => {
                 xs2:h-[22%]
                 xs4:h-[20%]
                 xs5:h-[23%]
-                xs6:h-[23%]
+                xs6:h-[21%]
                 xs8:h-[26%]
                 sm:h-[25%]
                 md:h-[31%] md:gap-16
