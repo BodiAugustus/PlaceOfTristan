@@ -97,6 +97,7 @@ export default function Author() {
            xs2:bottom-[4.5rem] xs2:left-[5rem]
            xs3:bottom-[4.8rem] xs3:left-[5.5rem]
            xs4:left-[6rem]
+           xs5:bottom-[5.2rem]
            xs6:bottom-[5.5rem] xs6:left-[6.5rem]
            xs8:bottom-[6rem] xs8:left-[7.5rem]
            sm:bottom-[9rem] sm:left-48

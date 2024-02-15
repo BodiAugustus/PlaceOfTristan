@@ -104,7 +104,7 @@ const SkillsList = () => {
                   >
                     <p
                       className="my-auto flex text-2xl
-                      xs:text-base
+                      xs:xl
                       md:text-4xl
                     4xl:text-4xl
                     "

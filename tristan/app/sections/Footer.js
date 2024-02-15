@@ -5,7 +5,8 @@ export default function Footer() {
     <footer className="h-[44vh] flex flex-col justify-center items-center text-2xl text-white  ">
       <Link
         href="#"
-        className="neontext neonP  text-4xl  md:text-7xl lg:text-8xl cursor-pointer "
+        className="neontext neonP  xs:text-4xl
+        xs4:text-5xl  md:text-7xl lg:text-8xl cursor-pointer "
       >
         Tristan Nettles
       </Link>
@@ -13,7 +14,7 @@ export default function Footer() {
         className=" w-full text-center 
       xs:translate-y-12
       xs3:translate-y-16
-      xs5:translate-y-16
+      xs5:translate-y-20
       sm:translate-y-16  "
       >
         <p
