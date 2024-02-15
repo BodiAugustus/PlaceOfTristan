@@ -16,6 +16,7 @@ const SkillsList = () => {
       xs:h-[85vh]
       xs3:h-[65vh]
       xs4:h-[70vh]
+      xs5:h-[65vh]
       xs6:h-[60vh]
     md:h-[40vh]
     lg:h-[80vh]
@@ -40,10 +41,10 @@ const SkillsList = () => {
         <div className=" relative md:w-[90%]  mx-auto">
           <div
             className="flex px-2 py-2 justify-center   text-[#00bfff]  -mt-4 
-            xs:text-xl xs:w-[95%]
+            xs:text-2xl xs:w-[95%]
             md:gap-10
             md:text-4xl
-          4xl:text-5xl
+            4xl:text-5xl
           "
           >
             {skills.map((skill, index) => {
@@ -64,7 +65,7 @@ const SkillsList = () => {
             <article className="relative basis-4 pt-2 pb-4 text-[#00bfff]  ">
               <div
                 className="flex justify-between text-2xl
-                xs:text-lg
+                xs:text-2xl
                 md:text-4xl
               4xl:text-4xl
               "
@@ -75,7 +76,7 @@ const SkillsList = () => {
                     {label}
                   </h4>
                   <p
-                    className="mt-2 text-xl
+                    className="mt-2 xs:text-2xl
                     md:text-4xl
                   4xl:text-3xl
                   "
@@ -84,13 +85,13 @@ const SkillsList = () => {
                   </p>
                 </div>
                 {value === 0 && (
-                  <GiScrollQuill className="mr-6 text-[#00bfff] xs:text-7xl sm:text-8xl lg:text-9xl" />
+                  <GiScrollQuill className="mr-6 text-[#00bfff] xs:text-8xl sm:text-8xl lg:text-9xl" />
                 )}
                 {value === 1 && (
-                  <GiBlacksmith className="mr-6 text-[#00bfff] xs:text-7xl sm:text-8xl lg:text-9xl" />
+                  <GiBlacksmith className="mr-6 text-[#00bfff] xs:text-8xl sm:text-8xl lg:text-9xl" />
                 )}
                 {value === 2 && (
-                  <GiSpaceShuttle className="mr-6 text-[#00bfff] xs:text-7xl sm:text-8xl lg:text-9xl " />
+                  <GiSpaceShuttle className="mr-6 text-[#00bfff] xs:text-8xl sm:text-8xl lg:text-9xl " />
                 )}
               </div>
               {skills.map((_, i = 0) => {

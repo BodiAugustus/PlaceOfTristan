@@ -13,6 +13,7 @@ export default function Footer() {
         className=" w-full text-center 
       xs:translate-y-12
       xs3:translate-y-16
+      xs5:translate-y-16
       sm:translate-y-16  "
       >
         <p
