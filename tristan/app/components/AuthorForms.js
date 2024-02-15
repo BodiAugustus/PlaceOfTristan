@@ -13,8 +13,8 @@ export default function AuthorForms() {
       sm:w-[75vw] 
       md:w-[75vw] md:h-[50vh]
       lg:w-[25vw]
-      xl:h-[80vh]
-      2xl:h-[80vh]
+      xl:h-[90vh]
+      2xl:h-[75vh]
       5xl:w-[28vw]
     "
     >
@@ -27,7 +27,7 @@ export default function AuthorForms() {
           sm:pt-8
           md:pt-12 md:text-5xl
           lg:pt-8 lg:text-4xl
-          xl:pt-8
+          xl:pt-4
           3xl:pt-16
           5xl:text-5xl 4xl:pt-20
         "
