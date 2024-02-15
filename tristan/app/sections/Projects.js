@@ -17,7 +17,7 @@ export default function Projects() {
         className="text-white text-center md:mb-6 
         xs:text-2xl xs:mb-1
         xs3:text-3xl
-        xl:text-5xl
+        xl:text-5xl xl:mb-1
         5xl:text-6xl
     
       
