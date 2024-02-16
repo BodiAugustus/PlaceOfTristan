@@ -96,7 +96,7 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
             4xl:text-6xl
             5xl:text-7xl"
             >
-              Published Authors
+              Published Author
             </li>
           </ul>
           <HeroCard
