@@ -34,7 +34,7 @@ export default function HeroCard({
     >
       <div
         className={`p-3 justify-end items-start flex-col rounded-xl   
-        xs:w-[90%] xs:h-[90%]
+        xs:w-[90%] xs:h-[70%]
         xs:z-20 
         xs2:w-[95%] xs2:h-[80%] 
         xs6:h-[65%]

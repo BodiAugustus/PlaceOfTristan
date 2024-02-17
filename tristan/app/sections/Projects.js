@@ -4,6 +4,7 @@ import Card from "../ui/card";
 export default function Projects() {
   return (
     <div
+      id="projects"
       className="  h-[100vh] w-[100vw] md:p-8 max-w-[2200px] mx-auto
       xs:h-[295vh] xs:p-2
       xs3:h-[255vh]

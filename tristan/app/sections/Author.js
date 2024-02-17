@@ -6,6 +6,7 @@ import { Button } from "../ui/Button";
 export default function Author() {
   return (
     <div
+      id="books"
       className="h-[100vh] w-[100vw] md:p-8 max-w-[2200px] mx-auto 
       xs:h-[275vh] xs:p-2
       xs3:h-[250vh]
@@ -109,6 +110,12 @@ export default function Author() {
            4xl:bottom-[8.5rem] 4xl:left-44
            5xl:bottom-[8.5rem] 5xl:left-44
            "
+            onClick={() => {
+              window.open(
+                "https://www.amazon.com/Shepherd-Bronze-Age-Tale/dp/1592113842/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1682034884&sr=8-1",
+                "_blank"
+              );
+            }}
           >
             Buy Now
           </Button>

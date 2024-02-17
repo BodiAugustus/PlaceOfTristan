@@ -51,7 +51,6 @@ export async function createMessage(formData) {
 
     // Provide feedback for successful operation
 
-    redirect("/tristan/app/page");
     // return {
     //   success: true,
     //   message: "Message created successfully",
@@ -62,6 +61,7 @@ export async function createMessage(formData) {
     // Provide feedback for failed operation
     return { success: false, error: error.message };
   }
+  redirect("/redirect");
 }
 
 export async function createEmail(formData) {
@@ -83,6 +83,7 @@ export async function createEmail(formData) {
         INSERT INTO users (email)
         VALUES (${sanitizedEmail})`;
       console.log("New user added to the database");
+      redirect("/loading");
     } else {
       console.log("User already exists in the database");
     }

@@ -123,6 +123,7 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
                 <div key={i} className={`star star-${i + 1}`}></div>
               ))}
             </div>
+
             <SaturnWithMoon />
           </div>
         </div>

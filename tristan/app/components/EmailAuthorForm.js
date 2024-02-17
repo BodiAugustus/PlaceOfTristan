@@ -46,7 +46,7 @@ export default function EmailAuthorForm() {
               id="email"
               name="email"
               type="email"
-              placeholder="Your email here..."
+              placeholder="Your email address here..."
             />
           </div>
           <div
@@ -105,6 +105,7 @@ export default function EmailAuthorForm() {
             className="bg-sky-800 w-[30%] px-4 py-2 hover:scale-105 hover:bg-sky-600 active:scale-100 active:bg-[#00bfff] h-12
           text-lg mx-auto border-4 border-white
           xs:w-[43%]
+          xs4:w-[38%]
           xs5:w-[36%]
           xs6:w-[36%]
           xs8:w-[33%]

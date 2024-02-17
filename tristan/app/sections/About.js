@@ -2,12 +2,13 @@ import Bulletpoint from "../components/Bulletpoint";
 import Image from "next/image";
 import SpaceImg from "../../public/space.webp";
 import Roadmap from "../../public/roadmap.png";
+import Roadmap2 from "../../public/roadmapMini.png";
 
 export default function About() {
   return (
     <div
       className="h-[100vh] w-[100vw] md:p-4    max-w-[2200px]
-      xs:p-2 xs:h-[110vh]
+      xs:p-2 xs:h-[125vh]
       md:h-[140vh]
     lg:h-[130vh]
 
@@ -26,7 +27,7 @@ export default function About() {
       </h2>
       <div
         className="flex flex-col  border-sky-400 rounded-lg border-4 w-[95vw] h-[85vh] mx-auto shadow-xl shadow-sky-400
-       xs:h-[95vh]
+       xs:h-[115vh]
         md:h-[130vh]
         lg:h-[115vh]
 
@@ -35,7 +36,7 @@ export default function About() {
       >
         <div
           className="w-[100%]
-          xl:w-[70%] h-[100%] rounded-lg relative 
+          xl:w-[70%] xs:h-[60%] md:h-[100%] rounded-lg relative 
         "
         >
           <Image
@@ -55,7 +56,15 @@ export default function About() {
         "
         >
           <Image
-            className="rounded-tr-sm rounded-br-sm"
+            className="rounded-tr-sm rounded-br-sm md:hidden"
+            src={Roadmap2}
+            alt="My personal roadmap"
+            fill
+            sizes="100%"
+            priority
+          />
+          <Image
+            className="rounded-tr-sm rounded-br-sm hidden md:block"
             src={Roadmap}
             alt="My personal roadmap"
             fill

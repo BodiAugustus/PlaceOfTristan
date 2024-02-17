@@ -12,6 +12,7 @@ const TwitterFeed = dynamic(() => import("../ui/TwitterFeed"), {
 export default function DeFi() {
   return (
     <div
+      id="defi"
       className="h-[100vh] w-[100vw] md:p-8 max-w-[2200px] mx-auto
       xs:h-[285vh] xs:p-2
       xs3:h-[245vh]

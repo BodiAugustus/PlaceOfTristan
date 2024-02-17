@@ -6,7 +6,7 @@ export default function Footer() {
       <Link
         href="#"
         className="neontext neonP  xs:text-4xl
-        xs4:text-5xl  md:text-7xl lg:text-8xl cursor-pointer "
+        xs4:text-4xl  md:text-7xl lg:text-8xl cursor-pointer "
       >
         Tristan Nettles
       </Link>

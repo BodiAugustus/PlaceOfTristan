@@ -14,8 +14,9 @@ const SkillsList = () => {
     <section
       className=" mx-auto w-[100vw] h-[70vh] max-w-[1800px]
       xs:h-[85vh]
-      xs3:h-[65vh]
-      xs4:h-[70vh]
+      xs3:h-[75vh]
+      xs4:h-[85vh]
+      xs6:h-[70vh]
  
     md:h-[40vh]
     lg:h-[80vh]
