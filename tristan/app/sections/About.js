@@ -1,4 +1,3 @@
-import Bulletpoint from "../components/Bulletpoint";
 import Image from "next/image";
 import SpaceImg from "../../public/space.webp";
 import Roadmap from "../../public/roadmap.png";

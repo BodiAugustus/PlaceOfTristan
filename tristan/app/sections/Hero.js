@@ -1,11 +1,6 @@
 "use client";
 
 import HeroCard from "../ui/HeroCard";
-// import MeshBlob from "../ui/MeshBlob";
-
-// import MeshLathe from "../ui/MeshLathe";
-// import MeshTube from "../ui/MeshTube";
-
 import SaturnWithMoon from "../ui/SaturnWithMoon";
 import { playfair } from "./../ui/fonts";
 

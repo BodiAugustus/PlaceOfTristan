@@ -33,13 +33,16 @@ export default function Redirect() {
             priority
           />
         </Link>
-        <div className="text-white flex flex-col text-center items-center justify-center">
-          <h2 className="2xl:text-5xl mb-2">Thanks for reaching out!</h2>
-          <p>
-            You will be automatically redirected back to the home page in 5
+        <div className="text-white flex flex-col text-center items-center justify-center xs:text-xl px-4">
+          <h2 className="2xl:text-5xl mb-5 font-bold">
+            Thanks for reaching out!
+          </h2>
+          <p className="mb-2">
+            You will now be automatically redirected back to the home page in 5
             seconds...
           </p>
-          <p>Or just click on the Monero logo above!</p>
+          <p className="mb-2">Or just click on the Monero logo above!</p>
+          <p>I 💘 XMR.</p>
         </div>
       </div>
     </div>

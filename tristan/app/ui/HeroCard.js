@@ -9,8 +9,12 @@ const NETWORKS = {
   5: "Goerli Test Network",
   42: "Kovan Test Network",
   56: "Binance Smart Chain",
+  137: "Polygon",
   250: "Fantom Network",
+  900: "Solana",
+  1000: "Tron",
   1337: "Ganache",
+  43114: "Avalanche",
   11155111: "Sepolia",
 };
 

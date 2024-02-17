@@ -39,6 +39,8 @@ export default function TickerTable() {
   const toka = useCryptoData("wen-4");
   const xmr = useCryptoData("monero");
   const xai = useCryptoData("xai-blockchain");
+  const btc = useCryptoData("bitcoin");
+  const eth = useCryptoData("ethereum");
 
   return (
     <div
@@ -57,8 +59,8 @@ export default function TickerTable() {
       <Ticker crypto={toka} symbol="TOKA" />
       <Ticker crypto={xmr} symbol="XMR" />
       <Ticker crypto={xai} symbol="XAI" />
-      <Ticker crypto={xmr} symbol="XMR" />
-      <Ticker crypto={xai} symbol="XAI" />
+      <Ticker crypto={btc} symbol="BTC" />
+      <Ticker crypto={eth} symbol="ETH" />
     </div>
   );
 }
