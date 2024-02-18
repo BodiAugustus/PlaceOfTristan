@@ -5,7 +5,8 @@ import { useState, useEffect } from "react";
 
 import { Button } from "../ui/Button";
 
-const contractAddress = "0x37f645D390329A4bfED19C08416E6d9f8B4875fb";
+//payment form sends money to the address below
+const contractAddress = "0xAaD2BBE21a4350ede505638DB04fED7514425982";
 const contractABI = [
   {
     inputs: [],
