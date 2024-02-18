@@ -1,6 +1,7 @@
 require("dotenv").config(); // If you're using dotenv to manage your environment variables
 
 const CHAIN_ID = process.env.NEXT_PUBLIC_TARGET_CHAIN_ID_PRODUCTION;
+
 const NETWORKS = {
   //This is a mapping using the chainId
   1: "Ethereum Main Network",
@@ -80,11 +81,11 @@ export default function HeroCard({
                 xl:text-xl xl:p-2
               4xl:text-2xl"
               >
-                <div className="">Wrong network,</div>
-                <div className="">
+                <div>Wrong network,</div>
+                <div>
                   Connect to: {` `}
-                  <strong className="">{NETWORKS[desiredNetwork]}</strong>{" "}
-                  {/* Update as needed */}
+                  <strong>TEST</strong>{" "}
+                  {/* <strong>{NETWORKS[desiredNetwork]}</strong>{" "} */}
                 </div>
               </div>
             )}
