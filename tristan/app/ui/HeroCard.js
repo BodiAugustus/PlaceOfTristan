@@ -17,7 +17,6 @@ const NETWORKS = {
   1337: "Ganache",
   43114: "Avalanche",
   11155111: "Sepolia",
-  1222222: "TEST",
 };
 
 export default function HeroCard({
