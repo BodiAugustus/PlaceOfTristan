@@ -258,7 +258,6 @@ export default function PaymentForm() {
           </div>
 
           <Button
-            onClick={notify}
             type="submit"
             className="bg-sky-800 px-4 py-2 hover:scale-105 hover:bg-sky-600 hover:border-sky-300 active:bg-sky-400 active:scale-100 border-4 border-sky-400
           md:text-2xl
