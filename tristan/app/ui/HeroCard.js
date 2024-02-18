@@ -29,6 +29,7 @@ export default function HeroCard({
 
   const desiredNetwork = CHAIN_ID;
   const isCorrectNetwork = currentNetworkId === desiredNetwork;
+  console.log(currentNetwork, desiredNetwork, isCorrectNetwork);
   return (
     <div
       className="flex flex-col flex-1 items-center justify-start w-full h-[35vh] mx-auto 
