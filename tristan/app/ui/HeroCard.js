@@ -26,7 +26,7 @@ export default function HeroCard({
 }) {
   const currentNetwork = NETWORKS[currentNetworkId];
 
-  const desiredNetwork = CHAIN_ID;
+  const desiredNetwork = 250;
   const isCorrectNetwork = currentNetworkId === desiredNetwork;
   return (
     <div
@@ -84,8 +84,8 @@ export default function HeroCard({
                 <div>Wrong network,</div>
                 <div>
                   Connect to: {` `}
-                  <strong>TEST</strong>{" "}
-                  {/* <strong>{NETWORKS[desiredNetwork]}</strong>{" "} */}
+                  {/* <strong>TEST</strong>{" "} */}
+                  <strong>{NETWORKS[desiredNetwork]}</strong>{" "}
                 </div>
               </div>
             )}
