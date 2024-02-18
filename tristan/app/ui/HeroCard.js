@@ -181,7 +181,7 @@ export default function HeroCard({
                   xl:text-xl text-white
                 4xl:text-3xl"
                 >
-                  {currentNetwork}
+                  {isCorrectNetwork ? currentNetwork : currentNetwork}
                 </span>
               </p>
             ) : (
