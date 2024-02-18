@@ -51,9 +51,12 @@ const SkillsList = () => {
               return (
                 <button
                   key={skill.id + 1}
-                  className={`m-2 mb-3 ${index === value && "active-btn"} px-2
-                  
-                  `}
+                  className={`m-2 mb-3 px-2 ${
+                    index === value
+                      ? "underline decoration-[#00bfff] underline-offset-8"
+                      : ""
+                  } 
+              hover:text-sky-600 transition-colors duration-300`}
                   onClick={() => setValue(index)}
                 >
                   {skill.title}
