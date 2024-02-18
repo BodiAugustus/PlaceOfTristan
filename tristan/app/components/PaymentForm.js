@@ -4,6 +4,9 @@ import { ethers, BrowserProvider } from "ethers";
 import { useState, useEffect } from "react";
 
 import { Button } from "../ui/Button";
+import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 //payment form sends money to the address below
 const contractAddress = "0xAaD2BBE21a4350ede505638DB04fED7514425982";
@@ -127,7 +130,7 @@ export default function PaymentForm() {
         );
         setContract(contractInstance);
       } else {
-        console.log("Please install MetaMask!");
+        toast.error("MetaMask is not installed!");
       }
     };
 
@@ -138,13 +141,16 @@ export default function PaymentForm() {
     event.preventDefault();
 
     if (!contract) {
-      alert("Contract not loaded or Metamask not installed!");
+      toast.error("Contract not loaded or MetaMask is not installed!");
+      return;
+    }
+
+    if (!amount) {
+      toast.error("No amount entered!");
       return;
     }
 
     try {
-      if (!amount) throw new Error("No amount entered");
-
       const transactionResponse = await contract.transferEther(
         contractAddress, // Assuming you want to send to the contract itself or replace with recipient address
         ethers.parseEther(amount.toString()), // Convert the amount to wei
@@ -152,16 +158,28 @@ export default function PaymentForm() {
       );
 
       await transactionResponse.wait(); // Wait for the transaction to be mined
-      alert("FTM sent successfully!");
+      toast.success("FTM sent successfully!");
       setAmount("");
     } catch (error) {
       console.error("Error sending FTM:", error);
-      alert(error.message);
+      toast.error(error.message);
     }
   };
   return (
-    <form
-      className="bg-[#01011d] md:h-[50vh]  flex flex-col items-center justify-around text-white p-2
+    <>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
+      <form
+        className="bg-[#01011d] md:h-[50vh]  flex flex-col items-center justify-around text-white p-2
       xs:w-[80vw] xs:h-[80vh]
       xs3:h-[60vh]
       sm:w-[75vw] 
@@ -171,11 +189,11 @@ export default function PaymentForm() {
       5xl:w-[28vw]
 
       "
-      onSubmit={handleSendFTM}
-    >
-      <div className="flex flex-col items-center">
-        <h3
-          className="pb-2
+        onSubmit={handleSendFTM}
+      >
+        <div className="flex flex-col items-center">
+          <h3
+            className="pb-2
           xs:text-xl
           sm:text-3xl
           md:text-4xl 
@@ -183,23 +201,23 @@ export default function PaymentForm() {
           xl:text-2xl
         5xl:text-4xl
         "
-        >
-          Want to send me FTM?
-        </h3>
-        <h4
-          className="p-2 text-center
+          >
+            Want to send me FTM?
+          </h3>
+          <h4
+            className="p-2 text-center
           md:text-2xl 
           lg:text-xl
           xl:text-lg
         5xl:text-xl
         "
-        >
-          <span className="text-red-400">WARNING:</span> Only{" "}
-          <span className="text-green-400">FTM</span> is accepted! Any other
-          type of cryptocurrency sent will be lost!
-        </h4>
-        <p
-          className="text-center pt-2 px-2
+          >
+            <span className="text-red-400">WARNING:</span> Only{" "}
+            <span className="text-green-400">FTM</span> is accepted! Any other
+            type of cryptocurrency sent will be lost!
+          </h4>
+          <p
+            className="text-center pt-2 px-2
           xs:pt-0
           sm:pt-4
           md:text-2xl md:pt-14
@@ -208,48 +226,50 @@ export default function PaymentForm() {
           
         5xl:text-xl
         "
-        >
-          Enter in the amount of FTM you wish to send and click the button. The
-          funds will then automatically be sent to the correct wallet address on
-          the Fantom Blockchain!
-        </p>
-      </div>
-      <div
-        className="flex flex-col items-center 
+          >
+            Enter in the amount of FTM you wish to send and click the button.
+            The funds will then automatically be sent to the correct wallet
+            address on the Fantom Blockchain!
+          </p>
+        </div>
+        <div
+          className="flex flex-col items-center 
         xs:gap-4
         sm:gap-8
         md:gap-10
       lg:gap-4
       xl:gap-8"
-      >
-        <div
-          className="flex gap-1 
+        >
+          <div
+            className="flex gap-1 
           sm:text-2xl
           lg:pt-4 lg:text-xl
           xl:pt-0
         5xl:text-xl
         "
-        >
-          <label>Amount: </label>
-          <input
-            type="number"
-            className="rounded-md text-[#01011d] indent-1"
-            value={amount}
-            onChange={(e) => setAmount(e.target.value)}
-          />
-        </div>
+          >
+            <label>Amount: </label>
+            <input
+              type="number"
+              className="rounded-md text-[#01011d] indent-1"
+              value={amount}
+              onChange={(e) => setAmount(e.target.value)}
+            />
+          </div>
 
-        <Button
-          type="submit"
-          className="bg-sky-800 px-4 py-2 hover:scale-105 hover:bg-sky-600 hover:border-sky-300 active:bg-sky-400 active:scale-100 border-4 border-sky-400
+          <Button
+            onClick={notify}
+            type="submit"
+            className="bg-sky-800 px-4 py-2 hover:scale-105 hover:bg-sky-600 hover:border-sky-300 active:bg-sky-400 active:scale-100 border-4 border-sky-400
           md:text-2xl
           lg:text-xl
           
           5xl:text-xl"
-        >
-          Send FTM
-        </Button>
-      </div>
-    </form>
+          >
+            Send FTM
+          </Button>
+        </div>
+      </form>
+    </>
   );
 }
