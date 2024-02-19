@@ -181,7 +181,7 @@ export default function HeroCard({
                   xl:text-xl text-white
                 4xl:text-3xl"
                 >
-                  {isCorrectNetwork ? currentNetwork : currentNetwork}
+                  {isCorrectNetwork ? currentNetwork : "Not Connected"}
                 </span>
               </p>
             ) : (
@@ -197,7 +197,7 @@ export default function HeroCard({
                   className="md:text-xl lg:text-sm xl:text-xl text-white
                 4xl:text-2xl 4xl:top-2"
                 >
-                  {isCorrectNetwork ? currentNetwork : currentNetwork}
+                  {isCorrectNetwork ? currentNetwork : "Not Connected"}
                 </span>
               </p>
             )}
