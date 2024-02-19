@@ -283,8 +283,12 @@
   background-color: #f0f0f0;
   padding: 1rem;
   transition: top 0.3s ease; /* Transition the top position */
+  z-index: 100;
+  visibility: hidden;
 }
 
 .mobile-menu.active {
-  top: 1; /* Bring the menu into view */
+  top: 0; /* Bring the menu into view */
+  visibility: visible;
+  z-index: 100;
 }
