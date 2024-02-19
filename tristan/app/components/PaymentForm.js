@@ -130,7 +130,7 @@ export default function PaymentForm() {
         );
         setContract(contractInstance);
       } else {
-        toast.error("MetaMask is not installed!");
+        console.error("MetaMask is not installed!");
       }
     };
 

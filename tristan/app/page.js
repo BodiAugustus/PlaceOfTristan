@@ -9,7 +9,6 @@ import DeFi from "./sections/DeFi";
 import Author from "./sections/Author";
 import Skills from "./sections/Skills";
 import Footer from "./sections/Footer";
-import Head from "next/head";
 
 export default function Home() {
   const [userAddress, setUserAddress] = useState("");
