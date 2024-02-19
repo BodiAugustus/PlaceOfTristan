@@ -274,3 +274,17 @@
   background: linear-gradient(145deg, #0a5a8c 0%, #00baff 100%);
   box-shadow: 0 12px 20px rgba(12, 120, 208, 0.8);
 }
+
+.mobile-menu {
+  position: absolute;
+  top: 100%; /* Initially hidden below the viewport */
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  transition: top 0.3s ease; /* Transition the top position */
+}
+
+.mobile-menu.active {
+  top: 1; /* Bring the menu into view */
+}

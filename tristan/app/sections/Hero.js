@@ -4,9 +4,16 @@ import HeroCard from "../ui/HeroCard";
 import SaturnWithMoon from "../ui/SaturnWithMoon";
 import { playfair } from "./../ui/fonts";
 
-export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
+export default function Hero({
+  connectWallet,
+  userAddress,
+  currentNetworkId,
+  isMenuOpen,
+}) {
   return (
-    <div className={`w-[100vw] h-[88vh] ${playfair.className}  max-w-[2200px]`}>
+    <div
+      className={`w-[100vw] h-[88vh] ${playfair.className}  max-w-[2200px] z-0`}
+    >
       <div
         className="flex  justify-center items-center xs:relative z-10
         
@@ -101,8 +108,31 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
           />
         </div>
 
-        <div
-          className="xs:relative lg:static h-[75vh] max-w-[850px]  relative p-4 w-[40vw] mx-auto overflow-hidden
+        {isMenuOpen ? (
+          <div
+            className="xs:relative lg:static h-[75vh] max-w-[850px]  relative p-4 w-[40vw] mx-auto overflow-hidden
+          xs:w-[95vw] xs:mt-20
+          xs3:w-[95vw]
+          lg:w-[40vw] lg:mt-0
+          xl:w-[37vw]
+          2xl:w-[40vw]
+          3xl:w-[40vw]
+          4xl:w-[40vw]
+          5xl:w-[40vw]"
+          >
+            <div className="h-[100%] w-[100%] absolute inset-0 bg-[url('/galaxy3.png')] bg-cover bg-center">
+              <div className="absolute inset-0 z-5">
+                {[...Array(10)].map((_, i) => (
+                  <div key={i} className={`star star-${i + 1}`}></div>
+                ))}
+              </div>
+
+              <SaturnWithMoon />
+            </div>
+          </div>
+        ) : (
+          <div
+            className="xs:relative lg:static h-[75vh] max-w-[850px]  relative p-4 w-[40vw] mx-auto overflow-hidden
           xs:w-[95vw]
           xs3:w-[95vw]
           lg:w-[40vw]
@@ -111,17 +141,18 @@ export default function Hero({ connectWallet, userAddress, currentNetworkId }) {
           3xl:w-[40vw]
           4xl:w-[40vw]
           5xl:w-[40vw]"
-        >
-          <div className="h-[100%] w-[100%] absolute inset-0 bg-[url('/galaxy3.png')] bg-cover bg-center">
-            <div className="absolute inset-0 z-5">
-              {[...Array(10)].map((_, i) => (
-                <div key={i} className={`star star-${i + 1}`}></div>
-              ))}
-            </div>
+          >
+            <div className="h-[100%] w-[100%] absolute inset-0 bg-[url('/galaxy3.png')] bg-cover bg-center">
+              <div className="absolute inset-0 z-5">
+                {[...Array(10)].map((_, i) => (
+                  <div key={i} className={`star star-${i + 1}`}></div>
+                ))}
+              </div>
 
-            <SaturnWithMoon />
+              <SaturnWithMoon />
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );

@@ -15,6 +15,7 @@ export default function Home() {
   const [userAddress, setUserAddress] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [currentNetworkId, setCurrentNetworkId] = useState("");
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const fetchNetwork = async () => {
@@ -78,11 +79,14 @@ export default function Home() {
           connectWallet={connectWallet}
           userAddress={userAddress}
           isLoading={isLoading}
+          isMenuOpen={isMenuOpen}
+          setIsMenuOpen={setIsMenuOpen}
         />
         <Hero
           connectWallet={connectWallet}
           userAddress={userAddress}
           currentNetworkId={currentNetworkId}
+          isMenuOpen={isMenuOpen}
         />
         <About />
         <Projects />

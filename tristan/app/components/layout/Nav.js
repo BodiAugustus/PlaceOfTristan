@@ -7,8 +7,14 @@ import Link from "next/link";
 import ConnectButton from "@/app/ui/ConnectButton";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"; // Import icons for the menu
 
-export default function Nav({ connectWallet, userAddress, isLoading }) {
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to control the menu visibility
+export default function Nav({
+  connectWallet,
+  userAddress,
+  isLoading,
+  isMenuOpen,
+  setIsMenuOpen,
+}) {
+  // State to control the menu visibility
 
   return (
     <nav
@@ -88,10 +94,11 @@ export default function Nav({ connectWallet, userAddress, isLoading }) {
 
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
-        <div className="lg:hidden absolute top-full left-0 w-full bg-platinum p-4">
+        <div className={`lg:hidden mobile-menu ${isMenuOpen ? "active" : ""}`}>
           <ul
-            className="flex  items-center justify-end md:gap-24 
-          xs:text-base xs:gap-4
+            className="flex  items-center justify-end 
+            md:gap-24 
+          xs:text-base xs:gap-8
           md:text-2xl "
           >
             {/* Mobile Menu Items */}
