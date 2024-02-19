@@ -24,7 +24,7 @@ const MobileMenu = forwardRef(
           <li>
             <Link
               href="/#projects"
-              className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 hover:scale-105 active:scale-100"
+              className="cursor-pointer  active:text-[#0a3d62] transition-all duration-300 hover:scale-105 active:scale-100"
             >
               Projects
             </Link>
@@ -32,7 +32,7 @@ const MobileMenu = forwardRef(
           <li>
             <Link
               href="/#defi"
-              className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 hover:scale-105 active:scale-100"
+              className="cursor-pointer active:text-[#0a3d62] transition-all duration-300 hover:scale-105 active:scale-100"
             >
               DeFi
             </Link>
@@ -40,7 +40,7 @@ const MobileMenu = forwardRef(
           <li>
             <Link
               href="/#books"
-              className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 hover:scale-105 active:scale-100"
+              className="cursor-pointer  active:text-[#0a3d62] transition-all duration-300 hover:scale-105 active:scale-100"
             >
               Books
             </Link>
