@@ -38,6 +38,7 @@ const ProjectCard = () => {
             className={`text-white bg-sky-400 md:h-[80vh]  border-4 border-[#00bfff] rounded-md ${lato.className} shadow-xl shadow-sky-400 mx-auto
             xs:w-[90vw] xs:h-[90vh]
             xs3:h-[78vh]
+            xs4:h-[85vh]
             sm:w-[65vw]
             md:w-[75vw]
             lg:w-[28.5vw]
@@ -92,7 +93,7 @@ const ProjectCard = () => {
                 className="bg-[#0a3d62] h-[23%] flex gap-8 pl-[7.5%]  items-center
                 xs:h-[19%]
                 xs2:h-[22%]
-                xs4:h-[20%]
+                xs4:h-[22%]
                 xs5:h-[23%]
                 xs6:h-[19%]
                 xs8:h-[26%]

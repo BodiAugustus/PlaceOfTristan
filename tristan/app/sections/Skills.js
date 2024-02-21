@@ -15,7 +15,7 @@ const SkillsList = () => {
       className=" mx-auto w-[100vw] h-[70vh] max-w-[1800px]
       xs:h-[85vh]
       xs3:h-[75vh]
-      xs4:h-[85vh]
+      xs4:h-[90vh]
       xs6:h-[70vh]
  
     md:h-[40vh]
