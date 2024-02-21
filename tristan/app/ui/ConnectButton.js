@@ -46,7 +46,7 @@ export function ConnectButton({
           }}
           className={clsx(buttonStyles, className)}
         >
-          Install MetaMask
+          Get MetaMask
         </button>
       )}
     </>

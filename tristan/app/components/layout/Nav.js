@@ -35,7 +35,7 @@ export default function Nav({ connectWallet, userAddress, isLoading }) {
       >
         <li>
           <Link
-            href="#projects"
+            href="/#projects"
             className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 inline-block transform-origin-center-bottom hover:scale-105 active:scale-100 w-[10rem]"
           >
             Projects
@@ -43,7 +43,7 @@ export default function Nav({ connectWallet, userAddress, isLoading }) {
         </li>
         <li>
           <Link
-            href="#defi"
+            href="/#defi"
             className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 inline-block transform-origin-center-bottom hover:scale-105 active:scale-100 w-[6rem]"
           >
             DeFi
@@ -51,7 +51,7 @@ export default function Nav({ connectWallet, userAddress, isLoading }) {
         </li>
         <li>
           <Link
-            href="#books"
+            href="/#books"
             className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 inline-block transform-origin-center-bottom hover:scale-105 active:scale-100 w-[7.5rem]"
           >
             Books
