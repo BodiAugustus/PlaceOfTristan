@@ -22,7 +22,7 @@ export default function Nav({
       className={`w-[100vw] h-[12vh] px-4 flex navbar items-center justify-between ${lato.className} max-w-[2200px] `}
     >
       <div className="flex items-center justify-between xs:w-[100%] xs:px-0 md:px-2 md:w-fit">
-        <div className="flex items-center gap-2 text-[#0a3d62] hover:scale-105 active:scale-100 transition-transform duration-300 xs:text-lg xs3:text-xl xs4:text-2xl lg:text-2xl xl:text-4xl 4xl:text-4xl 5xl:text-5xl ">
+        <div className="flex items-center gap-2 text-[#0a3d62] hover:scale-105 active:scale-100 transition-transform duration-300 xs:text-lg  xs3:text-2xl lg:text-2xl xl:text-4xl 4xl:text-4xl 5xl:text-5xl ">
           <span className="font-bold">Tristan</span>
           <GiDrakkar className="ship-animation" />
           <span className="font-bold">Nettles</span>
