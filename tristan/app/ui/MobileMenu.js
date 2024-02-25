@@ -5,13 +5,13 @@ import { ImCross } from "react-icons/im";
 
 const MobileMenu = forwardRef(
   ({ connectWallet, userAddress, isLoading, setIsActive, isActive }, ref) => {
-    const toggleMenu = () => {
-      setIsActive(!isActive);
-    };
+    // const toggleMenu = () => {
+    //   setIsActive(!isActive);
+    // };
 
-    React.useImperativeHandle(ref, () => ({
-      toggleMenu,
-    }));
+    // React.useImperativeHandle(ref, () => ({
+    //   toggleMenu,
+    // }));
 
     return (
       <div

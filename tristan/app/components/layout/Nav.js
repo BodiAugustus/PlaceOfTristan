@@ -15,7 +15,7 @@ export default function Nav({
   isActive,
   setIsActive,
 }) {
-  const mobileMenuRef = useRef(null);
+  // const mobileMenuRef = useRef(null);
 
   return (
     <nav
@@ -28,7 +28,7 @@ export default function Nav({
           <span className="font-bold">Nettles</span>
         </div>
         <Button
-          onClick={() => mobileMenuRef.current.toggleMenu()}
+          onClick={() => setIsActive(!isActive)}
           className="xs:text-4xl xs4:text-6xl md:text-6xl lg:hidden hover:scale-105 active:scale-100 "
         >
           <BiFilter className="text-[#0a3d62]" />
@@ -75,7 +75,7 @@ export default function Nav({
 
       {/* Mobile Menu */}
       <MobileMenu
-        ref={mobileMenuRef}
+        // ref={mobileMenuRef}
         connectWallet={connectWallet}
         userAddress={userAddress}
         isLoading={isLoading}
