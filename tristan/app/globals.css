@@ -588,3 +588,45 @@
     height: 40vh;
   }
 }
+
+@media (min-width: 410px) and (min-height: 715px) {
+  .custom-xs8-715-authorSection {
+    height: 280vh;
+  }
+
+  .custom-xs8-715-authorSectionContainer {
+    height: 270vh;
+  }
+
+  .custom-xs8-715-authorSectionContainerForm {
+    height: 75vh;
+  }
+
+  .custom-xs8-715-skillsSecyion {
+    height: 75vh;
+  }
+}
+@media (min-width: 410px) and (min-height: 810px) {
+  .custom-xs8-810-projectSection {
+    height: 275vh;
+  }
+
+  .custom-xs8-810-projectSectionCard {
+    height: 85vh;
+  }
+  .custom-xs8-810-authorSection {
+    height: 250vh;
+  }
+
+  .custom-xs8-810-authorSectionContainer {
+    height: 240vh;
+  }
+
+  .custom-xs8-810-authorSectionContainerForm {
+    height: 65vh;
+  }
+
+  .custom-xs8-810-skillsSecyion {
+    height: 65vh;
+  }
+}

@@ -46,6 +46,7 @@ const ProjectCard = () => {
             custom-xs-660-projectSectionCard 
             custom-xs6-650-projectSectionCard
             custom-xs6-780-projectSectionCard
+            custom-xs8-810-projectSectionCard
             sm:w-[65vw]
             md:w-[75vw]
             lg:w-[28.5vw]
@@ -87,6 +88,7 @@ const ProjectCard = () => {
                   className="text-lg
                   xs:text-base
                   xs4:text-lg
+                  xs8:text-xl
                   md:text-2xl
                   lg:text-base
                   2xl:h-[50%]

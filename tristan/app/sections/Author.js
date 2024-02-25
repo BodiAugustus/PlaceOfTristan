@@ -15,7 +15,8 @@ export default function Author() {
       custom-xs5-690-authorSection
       custom-xs6-650-authorSection
       custom-xs6-780-authorSection
-      xs8:h-[235vh]
+      custom-xs8-715-authorSection
+      custom-xs8-810-authorSection
       sm:h-[280vh]
       md:h-[215vh]
       lg:h-[120vh]"
@@ -40,7 +41,8 @@ export default function Author() {
    
         custom-xs6-650-authorSectionContainer
         custom-xs6-780-authorSectionContainer
-        xs8:h-[225vh]
+        custom-xs8-715-authorSectionContainer
+        custom-xs8-810-authorSectionContainer
         xs:w-[95vw] xs:p-2
         sm:h-[260vh]
         md:h-[200vh] 

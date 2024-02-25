@@ -68,7 +68,7 @@ export default function Nav({
         isLoading={isLoading}
         connectWallet={connectWallet}
         userAddress={userAddress}
-        className="hover:bg-sky-900 text-platinum bg-[#01011d] focus-visible:outline-[#0a3d62] active:bg-[#0a3d62] hover:scale-105 px-4 text-3xl active:scale-100 h-14 py-4 lg:text-2xl xl:text-4xl 4xl:h-16 5xl:text-4xl 5xl:h-16 hidden lg:block"
+        className="hover:bg-sky-900 text-platinum bg-[#01011d] focus-visible:outline-[#0a3d62] active:bg-[#0a3d62] hover:scale-105 px-4 text-3xl active:scale-100 h-14 py-2 lg:text-2xl xl:text-4xl 4xl:h-16 5xl:text-4xl 5xl:h-16 hidden lg:block"
       >
         Connect
       </ConnectButton>
