@@ -495,16 +495,23 @@
   }
 }
 
-@media (min-width: 380px) and (min-height: 690px) {
-  .custom-xs5-690-authorSection {
+@media (min-width: 380px) and (min-height: 670px) {
+  .custom-xs5-670-projectSection {
+    height: 215vh;
+  }
+
+  .custom-xs5-670-projectSectionCard {
+    height: 65vh;
+  }
+  .custom-xs5-670-authorSection {
     height: 275vh;
   }
 
-  .custom-xs5-690-authorSectionContainer {
+  .custom-xs5-670-authorSectionContainer {
     height: 260vh;
   }
 
-  .custom-xs5-690-authorSectionContainerForm {
+  .custom-xs5-670-authorSectionContainerForm {
     height: 75vh;
   }
 }
@@ -515,30 +522,30 @@
   }
 
   .custom-xs5-850-projectSection {
-    height: 215vh;
+    height: 230vh;
   }
 
   .custom-xs5-850-projectSectionCard {
-    height: 65vh;
+    height: 70vh;
   }
   .custom-xs5-850-authorSection {
-    height: 235vh;
+    height: 245vh;
   }
 
   .custom-xs5-850-authorSectionContainer {
-    height: 225vh;
+    height: 235vh;
   }
 
   .custom-xs5-850-authorSectionContainerForm {
-    height: 60vh;
+    height: 65vh;
   }
 
   .custom-xs5-850-skillsSecyion {
-    height: 60vh;
+    height: 65vh;
   }
 
   .custom-xs5-850-footer {
-    height: 40vh;
+    height: 45vh;
   }
 }
 

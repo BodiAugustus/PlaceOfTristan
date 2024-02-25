@@ -8,7 +8,7 @@ export default function AuthorForms() {
       custom-xs-640-authorSectionContainerForm
       custom-xs4-660-authorSectionContainerForm
       custom-xs4-550-authorSectionContainerForm
-      custom-xs5-690-authorSectionContainerForm
+      custom-xs5-670-authorSectionContainerForm
       custom-xs5-850-authorSectionContainerForm
       custom-xs6-650-authorSectionContainerForm
       custom-xs6-780-authorSectionContainerForm

@@ -43,6 +43,7 @@ const ProjectCard = () => {
             custom-xs-560-projectSectionCard
             custom-xs-650-projectSectionCard 
             custom-xs4-550-projectSectionCard
+            custom-xs5-670-projectSectionCard
             custom-xs5-850-projectSectionCard
             custom-xs-660-projectSectionCard 
             custom-xs6-650-projectSectionCard
@@ -88,7 +89,7 @@ const ProjectCard = () => {
                 <p
                   className="text-lg
                   xs:text-base
-                  xs4:text-lg
+                  xs6:text-lg
                   xs8:text-xl
                   md:text-2xl
                   lg:text-base
