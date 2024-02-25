@@ -424,43 +424,27 @@
 
 @media (min-width: 360px) and (min-height: 680px) {
   .custom-xs3-680-projectSection {
-    height: 245vh;
+    height: 240vh;
   }
 
   .custom-xs3-680-projectSectionCard {
-    height: 75vh;
-  }
-
-  .custom-xs3-680-projectSectionCardBottom {
-    height: 21%;
-  }
-
-  .custom-xs3-680-defiSectionWhole {
-    height: 245vh;
-  }
-
-  .custom-xs3-680-defiSection {
-    height: 235vh;
-  }
-
-  .custom-xs3-680-defiSectionForm {
-    height: 60vh;
+    height: 73vh;
   }
 
   .custom-xs3-680-authorSection {
-    height: 260vh;
-  }
-
-  .custom-xs3-680-authorSectionContainer {
     height: 250vh;
   }
 
+  .custom-xs3-680-authorSectionContainer {
+    height: 240vh;
+  }
+
   .custom-xs3-680-authorSectionContainerForm {
-    height: 75vh;
+    height: 70vh;
   }
 
   .custom-xs3-680-skillsSecyion {
-    height: 85vh;
+    height: 75vh;
   }
 
   .custom-xs3-68360-footer {

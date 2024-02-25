@@ -6,6 +6,7 @@ export default function AuthorForms() {
       className="bg-[#01011d] h-[65vh] border-4 border-sky-400 rounded-md text-white p-2
       xs:w-[85vw] custom-xs-448-authorSectionContainerForm
       custom-xs-640-authorSectionContainerForm
+      custom-xs3-680-authorSectionContainerForm
       custom-xs4-660-authorSectionContainerForm
       custom-xs4-550-authorSectionContainerForm
       custom-xs5-670-authorSectionContainerForm

@@ -15,6 +15,7 @@ const SkillsList = () => {
       className=" mx-auto w-[100vw] h-[70vh] max-w-[1800px]
       custom-xs-448-skillsSecyion
       custom-xs-640-skillsSecyion 
+      custom-xs3-680-skillsSecyion
       custom-xs4-660-skillsSecyion
       custom-xs4-550-skillsSecyion 
       custom-xs5-670-skillsSecyion
