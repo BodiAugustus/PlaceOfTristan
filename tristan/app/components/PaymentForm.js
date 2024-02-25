@@ -194,7 +194,7 @@ export default function PaymentForm() {
         <div className="flex flex-col items-center">
           <h3
             className="pb-2
-          xs:text-xl
+          xs:text-lg
           sm:text-3xl
           md:text-4xl 
           lg:text-2xl
@@ -206,6 +206,8 @@ export default function PaymentForm() {
           </h3>
           <h4
             className="p-2 text-center
+            xs:text-sm
+            xs3:text-base
           md:text-2xl 
           lg:text-xl
           xl:text-lg

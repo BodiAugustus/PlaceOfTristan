@@ -628,6 +628,9 @@
 }
 
 @media (min-width: 390px) and (min-height: 780px) {
+  .mobileMenu-390-780 {
+    padding-top: 8rem;
+  }
   .custom-xs6-780-heroCard {
     /* Custom styles */
 

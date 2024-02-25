@@ -89,7 +89,8 @@ const ProjectCard = () => {
               >
                 <p
                   className="text-lg
-                  xs:text-base
+                  xs:text-sm
+                  xs3:text-base
                   xs6:text-lg
                   xs8:text-xl
                   md:text-2xl

@@ -17,11 +17,11 @@ const MobileMenu = forwardRef(
       <div
         className={` ${
           isActive
-            ? "flex items-center justify-center bg-black bg-opacity-50 h-[100vh] fixed inset-0"
+            ? "flex items-center justify-center bg-black bg-opacity-100 h-[100vh] fixed inset-0 mobileMenu-390-780"
             : "hidden"
         }  lg:hidden`}
       >
-        <div className="bg-[#01011d] p-2  max-w-sm mx-auto w-full h-[100vh] z-50 lg:hidden">
+        <div className="bg-[#01011d] p-4  max-w-sm mx-auto w-full h-[100vh] z-50 lg:hidden">
           {/* Mobile Menu Items */}
           <div>
             <ImCross
@@ -31,7 +31,11 @@ const MobileMenu = forwardRef(
               }}
             />
           </div>
-          <ul className="space-y-4 text-center text-white flex flex-col  items-center xs:gap-8 xs:pt-6 ">
+          <ul
+            className="space-y-4 text-center text-white flex flex-col  items-center xs:gap-8 xs:pt-6 
+          xs6:gap-20
+          "
+          >
             <li>
               <Link
                 href="/#projects"
