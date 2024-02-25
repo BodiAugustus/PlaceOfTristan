@@ -296,7 +296,6 @@
   transition: opacity 300ms, transform 300ms;
 }
 
-/* For devices with width 375px and height at least 667px */
 @media (min-width: 320px) and (min-height: 448px) {
   .custom-xs-448-heroCard {
     /* Custom styles */
@@ -364,7 +363,6 @@
   }
 }
 
-/* For devices with width 375px and height at least 740px */
 @media (min-width: 320px) and (min-height: 640px) {
   .custom-xs-640-heroCard {
     /* Custom styles */
@@ -420,6 +418,79 @@
   }
 
   .custom-xs-640-footer {
+    height: 45vh;
+  }
+}
+
+@media (min-width: 370px) and (min-height: 550px) {
+  .custom-xs4-550-heroList {
+    padding-top: 5rem;
+  }
+
+  .custom-xs4-550-heroCard {
+    /* Custom styles */
+    height: 95%;
+    width: 95%;
+  }
+
+  .custom-xs4-550-projectSection {
+    height: 325vh;
+  }
+
+  .custom-xs4-550-projectSectionCard {
+    height: 100vh;
+  }
+
+  .custom-xs4-550-authorSection {
+    height: 315vh;
+  }
+
+  .custom-xs4-550-authorSectionContainer {
+    height: 300vh;
+  }
+
+  .custom-xs4-550-authorSectionContainerForm {
+    height: 95vh;
+  }
+
+  .custom-xs4-550-skillsSecyion {
+    height: 105vh;
+  }
+}
+
+/* For devices with width 375px and height at least 740px */
+@media (min-width: 370px) and (min-height: 660px) {
+  .custom-xs4-660-heroCard {
+    /* Custom styles */
+    height: 85%;
+    width: 95%;
+  }
+
+  .custom-xs-660-projectSection {
+    height: 280vh;
+  }
+
+  .custom-xs-660-projectSectionCard {
+    height: 85vh;
+  }
+
+  .custom-xs4-660-authorSection {
+    height: 270vh;
+  }
+
+  .custom-xs4-660-authorSectionContainer {
+    height: 260vh;
+  }
+
+  .custom-xs4-660-authorSectionContainerForm {
+    height: 78vh;
+  }
+
+  .custom-xs4-660-skillsSecyion {
+    height: 85vh;
+  }
+
+  .custom-xs-650-footer {
     height: 45vh;
   }
 }

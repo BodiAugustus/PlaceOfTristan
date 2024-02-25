@@ -8,8 +8,9 @@ export default function Projects() {
       className="  h-[100vh] w-[100vw] md:p-8 max-w-[2200px] mx-auto
       custom-xs-448-projectSection xs:p-2
       custom-xs-640-projectSection
-      xs3:h-[255vh]
-      xs4:h-[280vh]
+      custom-xs-660-projectSection
+      custom-xs4-550-projectSection 
+      
       sm:h-[270vh]
       md:h-[262vh]
       lg:h-[100vh]

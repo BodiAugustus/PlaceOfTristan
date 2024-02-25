@@ -10,8 +10,8 @@ export default function Author() {
       className="h-[100vh] w-[100vw] md:p-8 max-w-[2200px] mx-auto 
       custom-xs-448-authorSection
       custom-xs-640-authorSection xs:p-2
-      xs3:h-[250vh]
-      xs4:h-[265vh]
+      custom-xs4-660-authorSection
+      custom-xs4-550-authorSection
       xs5:h-[235vh]
       xs6:h-[225vh]
       xs8:h-[235vh]
@@ -33,8 +33,8 @@ export default function Author() {
         className=" justify-around flex h-[80vh] p-4 items-center border-4 border-sky-400 rounded-md bg-custom-gradient2 shadow-xl shadow-sky-400
         xs:flex-col custom-xs-448-authorSectionContainer
         custom-xs-640-authorSectionContainer
-        xs3:h-[235vh]
-        xs4:h-[250vh]
+        custom-xs4-660-authorSectionContainer
+        custom-xs4-550-authorSectionContainer
         xs5:h-[220vh]
         xs6:h-[215vh]
         xs8:h-[225vh]

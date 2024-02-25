@@ -25,7 +25,7 @@ export default function Hero({
           className={`${
             isActive
               ? "hidden"
-              : "text-center text-platinum relative max-w-[850px] mx-auto xs:absolute xs:z-20 custom-xs-448-heroList md:pt-0 xs2:-mt-12"
+              : "text-center text-platinum relative max-w-[850px] mx-auto xs:absolute xs:z-20 custom-xs-448-heroList custom-xs-560-heroList custom-xs4-550-heroList md:pt-0 xs2:-mt-12"
           }  lg:visible
         xl:-mt-28`}
         >

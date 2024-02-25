@@ -37,9 +37,13 @@ const ProjectCard = () => {
             key={id}
             className={`text-white bg-sky-400 md:h-[80vh]  border-4 border-[#00bfff] rounded-md ${lato.className} shadow-xl shadow-sky-400 mx-auto
             xs:w-[90vw] custom-xs-448-projectSectionCard
+           
             custom-xs-640-projectSectionCard
-            xs3:h-[78vh]
-            xs4:h-[85vh]
+        
+            custom-xs-560-projectSectionCard
+            custom-xs-650-projectSectionCard 
+            custom-xs4-550-projectSectionCard
+            custom-xs-660-projectSectionCard 
             sm:w-[65vw]
             md:w-[75vw]
             lg:w-[28.5vw]
