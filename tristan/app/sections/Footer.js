@@ -7,7 +7,8 @@ export default function Footer() {
     custom-xs-640-footer flex flex-col justify-center items-center text-2xl text-white
     custom-xs3-680-footer
     custom-xs5-850-footer
-    custom-xs6-780-footer  "
+    custom-xs6-780-footer 
+    xl:h-[45vh] "
     >
       <Link
         href="#"
