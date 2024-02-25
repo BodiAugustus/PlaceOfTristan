@@ -8,8 +8,9 @@ export default function AuthorForms() {
       custom-xs-640-authorSectionContainerForm
       custom-xs4-660-authorSectionContainerForm
       custom-xs4-550-authorSectionContainerForm
-      xs5:h-[70vh]
-      xs6:h-[65vh]
+      custom-xs5-690-authorSectionContainerForm
+      custom-xs6-650-authorSectionContainerForm
+      custom-xs6-780-authorSectionContainerForm
       xs8:h-[70vh]
       sm:w-[75vw] 
       md:w-[75vw] md:h-[50vh]
@@ -25,6 +26,7 @@ export default function AuthorForms() {
       >
         <h4
           className="text-center xs:text-2xl mb-0 p-4
+          xs5:text-3xl
           sm:pt-8
           md:pt-12 md:text-5xl
           lg:pt-8 lg:text-4xl

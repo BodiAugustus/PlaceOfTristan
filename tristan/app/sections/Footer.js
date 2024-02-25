@@ -4,7 +4,8 @@ export default function Footer() {
   return (
     <footer
       className="custom-xs-448-footer
-    custom-xs-640-footer flex flex-col justify-center items-center text-2xl text-white  "
+    custom-xs-640-footer flex flex-col justify-center items-center text-2xl text-white
+    custom-xs6-780-footer  "
     >
       <Link
         href="#"

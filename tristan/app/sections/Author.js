@@ -12,8 +12,9 @@ export default function Author() {
       custom-xs-640-authorSection xs:p-2
       custom-xs4-660-authorSection
       custom-xs4-550-authorSection
-      xs5:h-[235vh]
-      xs6:h-[225vh]
+      custom-xs5-690-authorSection
+      custom-xs6-650-authorSection
+      custom-xs6-780-authorSection
       xs8:h-[235vh]
       sm:h-[280vh]
       md:h-[215vh]
@@ -35,8 +36,10 @@ export default function Author() {
         custom-xs-640-authorSectionContainer
         custom-xs4-660-authorSectionContainer
         custom-xs4-550-authorSectionContainer
-        xs5:h-[220vh]
-        xs6:h-[215vh]
+        custom-xs5-690-authorSectionContainer
+   
+        custom-xs6-650-authorSectionContainer
+        custom-xs6-780-authorSectionContainer
         xs8:h-[225vh]
         xs:w-[95vw] xs:p-2
         sm:h-[260vh]

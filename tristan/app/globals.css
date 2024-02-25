@@ -494,3 +494,97 @@
     height: 45vh;
   }
 }
+
+@media (min-width: 384px) and (min-height: 690px) {
+  .custom-xs5-690-authorSection {
+    height: 275vh;
+  }
+
+  .custom-xs5-690-authorSectionContainer {
+    height: 260vh;
+  }
+
+  .custom-xs5-690-authorSectionContainerForm {
+    height: 75vh;
+  }
+}
+
+@media (min-width: 390px) and (min-height: 650px) {
+  .custom-xs6-650-heroCard {
+    /* Custom styles */
+
+    height: 85%;
+  }
+
+  .custom-xs6-650-projectSection {
+    height: 295vh;
+  }
+
+  .custom-xs6-650-projectSectionCard {
+    height: 90vh;
+  }
+
+  .custom-xs6-650-projectSectionCardBottom {
+    height: 25%;
+  }
+
+  .custom-xs6-650-defiSectionWhole {
+    height: 245vh;
+  }
+
+  .custom-xs6-650-authorSection {
+    height: 290vh;
+  }
+
+  .custom-xs6-650-authorSectionContainer {
+    height: 280vh;
+  }
+
+  .custom-xs6-650-authorSectionContainerForm {
+    height: 80vh;
+  }
+
+  .custom-xs6-650-skillsSecyion {
+    height: 90vh;
+  }
+
+  .custom-xs6-650-footer {
+    height: 45vh;
+  }
+}
+
+@media (min-width: 390px) and (min-height: 780px) {
+  .custom-xs6-780-heroCard {
+    /* Custom styles */
+
+    height: 75%;
+  }
+
+  .custom-xs6-780-projectSection {
+    height: 245vh;
+  }
+
+  .custom-xs6-780-projectSectionCard {
+    height: 75vh;
+  }
+
+  .custom-xs6-780-authorSection {
+    height: 250vh;
+  }
+
+  .custom-xs6-780-authorSectionContainer {
+    height: 240vh;
+  }
+
+  .custom-xs6-780-authorSectionContainerForm {
+    height: 65vh;
+  }
+
+  .custom-xs6-780-skillsSecyion {
+    height: 70vh;
+  }
+
+  .custom-xs6-780-footer {
+    height: 40vh;
+  }
+}

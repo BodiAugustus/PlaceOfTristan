@@ -17,8 +17,8 @@ const SkillsList = () => {
       custom-xs-640-skillsSecyion 
       custom-xs4-660-skillsSecyion
       custom-xs4-550-skillsSecyion 
-      xs6:h-[70vh]
- 
+      custom-xs6-650-skillsSecyion
+      custom-xs6-780-skillsSecyion
     md:h-[40vh]
     lg:h-[80vh]
     

@@ -44,6 +44,8 @@ const ProjectCard = () => {
             custom-xs-650-projectSectionCard 
             custom-xs4-550-projectSectionCard
             custom-xs-660-projectSectionCard 
+            custom-xs6-650-projectSectionCard
+            custom-xs6-780-projectSectionCard
             sm:w-[65vw]
             md:w-[75vw]
             lg:w-[28.5vw]
@@ -100,7 +102,7 @@ const ProjectCard = () => {
                 xs2:h-[22%]
                 xs4:h-[22%]
                 xs5:h-[23%]
-                xs6:h-[19%]
+                custom-xs6-650-projectSectionCardBottom
                 xs8:h-[26%]
                 sm:h-[25%]
                 md:h-[31%] md:gap-16

@@ -10,7 +10,8 @@ export default function Projects() {
       custom-xs-640-projectSection
       custom-xs-660-projectSection
       custom-xs4-550-projectSection 
-      
+      custom-xs6-650-projectSection
+      custom-xs6-780-projectSection
       sm:h-[270vh]
       md:h-[262vh]
       lg:h-[100vh]
