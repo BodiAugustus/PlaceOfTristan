@@ -497,11 +497,11 @@
 
 @media (min-width: 380px) and (min-height: 670px) {
   .custom-xs5-670-projectSection {
-    height: 230vh;
+    height: 245vh;
   }
 
   .custom-xs5-670-projectSectionCard {
-    height: 70vh;
+    height: 75vh;
   }
   .custom-xs5-670-authorSection {
     height: 275vh;
@@ -516,7 +516,7 @@
   }
 
   .custom-xs5-670-skillsSecyion {
-    height: 60vh;
+    height: 70vh;
   }
 }
 @media (min-width: 380px) and (min-height: 850px) {
