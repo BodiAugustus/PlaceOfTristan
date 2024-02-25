@@ -45,7 +45,6 @@ export default function About() {
             alt="Image of crypto space pioneer building a castle on the moon."
             fill
             sizes="70%"
-            priority
           />
         </div>
 
@@ -61,7 +60,6 @@ export default function About() {
             alt="My personal roadmap"
             fill
             sizes="100%"
-            priority
           />
           <Image
             className="rounded-tr-sm rounded-br-sm hidden md:block"
@@ -69,7 +67,6 @@ export default function About() {
             alt="My personal roadmap"
             fill
             sizes="100%"
-            priority
           />
         </div>
       </div>

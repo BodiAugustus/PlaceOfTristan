@@ -30,7 +30,6 @@ export default function Redirect() {
             alt="Image of Monero."
             height={300}
             width={300}
-            priority
           />
         </Link>
         <div className="text-white flex flex-col text-center items-center justify-center xs:text-xl px-4">
