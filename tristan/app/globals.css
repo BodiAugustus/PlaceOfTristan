@@ -546,13 +546,13 @@
   }
 
   .custom-xs5-670-skillsSecyion {
-    height: 70vh;
+    height: 85vh;
   }
 }
 @media (min-width: 380px) and (min-height: 850px) {
   .custom-xs5-850-heroCard {
     /* Custom styles */
-    height: 70%;
+    height: 68%;
   }
 
   .custom-xs5-850-projectSection {
@@ -563,15 +563,15 @@
     height: 70vh;
   }
   .custom-xs5-850-authorSection {
-    height: 245vh;
-  }
-
-  .custom-xs5-850-authorSectionContainer {
     height: 235vh;
   }
 
+  .custom-xs5-850-authorSectionContainer {
+    height: 225vh;
+  }
+
   .custom-xs5-850-authorSectionContainerForm {
-    height: 65vh;
+    height: 60vh;
   }
 
   .custom-xs5-850-skillsSecyion {
@@ -579,7 +579,7 @@
   }
 
   .custom-xs5-850-footer {
-    height: 45vh;
+    height: 40vh;
   }
 }
 
