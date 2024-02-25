@@ -13,7 +13,8 @@ const SkillsList = () => {
   return (
     <section
       className=" mx-auto w-[100vw] h-[70vh] max-w-[1800px]
-      xs:h-[85vh]
+      custom-xs-448-skillsSecyion
+      custom-xs-640-skillsSecyion 
       xs3:h-[75vh]
       xs4:h-[90vh]
       xs6:h-[70vh]

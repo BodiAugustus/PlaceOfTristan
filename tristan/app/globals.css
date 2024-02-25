@@ -275,20 +275,151 @@
   box-shadow: 0 12px 20px rgba(12, 120, 208, 0.8);
 }
 
-.mobile-menu {
-  position: absolute;
-  top: 100%; /* Initially hidden below the viewport */
-  left: 0;
-  width: 100%;
-  background-color: #f0f0f0;
-  padding: 1rem;
-  transition: top 0.3s ease; /* Transition the top position */
-  z-index: 100;
-  visibility: hidden;
+/* Add to your global CSS, adjusting as necessary */
+.modal-enter {
+  opacity: 0;
+  transform: scale(0.9);
+  z-index: 1000;
+}
+.modal-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+  z-index: 1000;
+}
+.modal-exit {
+  opacity: 1;
+}
+.modal-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
 }
 
-.mobile-menu.active {
-  top: 0; /* Bring the menu into view */
-  visibility: visible;
-  z-index: 100;
+/* For devices with width 375px and height at least 667px */
+@media (min-width: 320px) and (min-height: 448px) {
+  .custom-xs-448-heroCard {
+    /* Custom styles */
+    height: 95%;
+  }
+
+  .custom-xs-448-heroList {
+    padding-top: 2rem;
+  }
+
+  .custom-xs-448-heroListText {
+    margin-bottom: 1.5rem;
+  }
+
+  .custom-xs-448-aboutSection {
+    height: 130vh;
+  }
+
+  .custom-xs-448-projectSection {
+    height: 390vh;
+  }
+
+  .custom-xs-448-projectSectionCard {
+    height: 120vh;
+  }
+
+  .custom-xs-448-projectSectionCardBottom {
+    height: 21%;
+  }
+
+  .custom-xs-448-defiSectionWhole {
+    height: 275vh;
+  }
+
+  .custom-xs-448-defiSectionForm {
+    font-size: small;
+  }
+
+  .custom-xs-448-defiSection {
+    height: 260vh;
+  }
+
+  .custom-xs-448-authorSection {
+    height: 345vh;
+  }
+
+  .custom-xs-448-authorSectionContainer {
+    height: 330vh;
+  }
+
+  .custom-xs-448-authorSectionContainerForm {
+    height: 120vh;
+  }
+
+  .custom-xs-448-authorSectionSynopsis {
+    height: 85vh;
+  }
+
+  .custom-xs-448-skillsSecyion {
+    height: 145vh;
+  }
+
+  .custom-xs-448-footer {
+    height: 50vh;
+  }
+}
+
+/* For devices with width 375px and height at least 740px */
+@media (min-width: 320px) and (min-height: 640px) {
+  .custom-xs-640-heroCard {
+    /* Custom styles */
+    height: 75%;
+  }
+
+  .custom-xs-640-heroListText {
+    margin-bottom: 2.5rem;
+  }
+
+  .custom-xs-640-aboutSection {
+    height: 125vh;
+  }
+
+  .custom-xs-640-projectSection {
+    height: 255vh;
+  }
+
+  .custom-xs-640-projectSectionCard {
+    height: 78vh;
+  }
+
+  .custom-xs-640-projectSectionCardBottom {
+    height: 21%;
+  }
+
+  .custom-xs-640-defiSectionWhole {
+    height: 245vh;
+  }
+
+  .custom-xs-640-defiSection {
+    height: 235vh;
+  }
+
+  .custom-xs-640-defiSectionForm {
+    height: 60vh;
+  }
+
+  .custom-xs-640-authorSection {
+    height: 260vh;
+  }
+
+  .custom-xs-640-authorSectionContainer {
+    height: 250vh;
+  }
+
+  .custom-xs-640-authorSectionContainerForm {
+    height: 75vh;
+  }
+
+  .custom-xs-640-skillsSecyion {
+    height: 85vh;
+  }
+
+  .custom-xs-640-footer {
+    height: 45vh;
+  }
 }

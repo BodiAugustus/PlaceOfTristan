@@ -8,7 +8,13 @@ import { BiFilter } from "react-icons/bi";
 import MobileMenu from "@/app/ui/MobileMenu"; // Import the MobileMenu component
 import { Button } from "@/app/ui/Button";
 
-export default function Nav({ connectWallet, userAddress, isLoading }) {
+export default function Nav({
+  connectWallet,
+  userAddress,
+  isLoading,
+  isActive,
+  setIsActive,
+}) {
   const mobileMenuRef = useRef(null);
 
   return (
@@ -73,6 +79,8 @@ export default function Nav({ connectWallet, userAddress, isLoading }) {
         connectWallet={connectWallet}
         userAddress={userAddress}
         isLoading={isLoading}
+        isActive={isActive}
+        setIsActive={setIsActive}
       />
     </nav>
   );

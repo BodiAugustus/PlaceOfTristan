@@ -6,7 +6,7 @@ export default function BookBox() {
     <div className="flex flex-col items-center gap-5 pt-4">
       <div
         className={`w-[25vw] h-[60vh] bg-[#01011d] p-2 border-4 mb-2 border-sky-400 rounded-md text-white ${lato.className}
-        xs:w-[85vw] xs:h-[65vh]
+        xs:w-[85vw] custom-xs-448-authorSectionSynopsis
         sm:w-[75vw]
         lg:w-[25vw]
         `}

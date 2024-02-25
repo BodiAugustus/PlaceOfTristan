@@ -14,7 +14,8 @@ export default function DeFi() {
     <div
       id="defi"
       className="h-[100vh] w-[100vw] md:p-8 max-w-[2200px] mx-auto
-      xs:h-[285vh] xs:p-2
+      custom-xs-448-defiSectionWhole 
+      custom-xs-640-defiSectionWhole xs:p-2
       xs3:h-[245vh]
       xs4:h-[240vh]
       sm:h-[215vh]
@@ -34,7 +35,8 @@ export default function DeFi() {
       </h2>
       <div
         className="bg-custom-gradient border-sky-400 border-4 rounded-md flex justify-around items-center h-[80vh] shadow-xl shadow-sky-400
-        xs:flex-col xs:h-[270vh]
+        custom-xs-448-defiSection
+        xs:flex-col custom-xs-640-defiSection
         xs3:h-[230vh]
         xs4:h-[225vh]
         sm:h-[195vh]

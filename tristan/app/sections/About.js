@@ -7,7 +7,8 @@ export default function About() {
   return (
     <div
       className="h-[100vh] w-[100vw] md:p-4    max-w-[2200px]
-      xs:p-2 xs:h-[125vh]
+      xs:p-2 custom-xs-448-aboutSection
+      custom-xs-640-aboutSection
       md:h-[140vh]
     lg:h-[130vh]
 

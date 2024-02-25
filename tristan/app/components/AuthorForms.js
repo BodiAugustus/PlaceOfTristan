@@ -4,7 +4,8 @@ export default function AuthorForms() {
   return (
     <div
       className="bg-[#01011d] h-[65vh] border-4 border-sky-400 rounded-md text-white p-2
-      xs:w-[85vw] xs:h-[90vh]
+      xs:w-[85vw] custom-xs-448-authorSectionContainerForm
+      custom-xs-640-authorSectionContainerForm
       xs3:h-[80vh]
       xs4:h-[85vh]
       xs5:h-[70vh]
@@ -23,7 +24,7 @@ export default function AuthorForms() {
       "
       >
         <h4
-          className="text-center text-4xl mb-0 p-4
+          className="text-center xs:text-2xl mb-0 p-4
           sm:pt-8
           md:pt-12 md:text-5xl
           lg:pt-8 lg:text-4xl

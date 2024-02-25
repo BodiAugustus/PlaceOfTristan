@@ -8,7 +8,8 @@ export default function Author() {
     <div
       id="books"
       className="h-[100vh] w-[100vw] md:p-8 max-w-[2200px] mx-auto 
-      xs:h-[275vh] xs:p-2
+      custom-xs-448-authorSection
+      custom-xs-640-authorSection xs:p-2
       xs3:h-[250vh]
       xs4:h-[265vh]
       xs5:h-[235vh]
@@ -30,7 +31,8 @@ export default function Author() {
       </h2>
       <div
         className=" justify-around flex h-[80vh] p-4 items-center border-4 border-sky-400 rounded-md bg-custom-gradient2 shadow-xl shadow-sky-400
-        xs:flex-col xs:h-[260vh]
+        xs:flex-col custom-xs-448-authorSectionContainer
+        custom-xs-640-authorSectionContainer
         xs3:h-[235vh]
         xs4:h-[250vh]
         xs5:h-[220vh]

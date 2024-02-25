@@ -7,7 +7,7 @@ export default function EmailAuthorForm() {
   return (
     <div>
       <h5
-        className="text-center text-2xl
+        className="text-center text-xl
         md:text-3xl md:mb-5
         lg:text-2xl lg:mb-0
       5xl:text-3xl
@@ -34,7 +34,7 @@ export default function EmailAuthorForm() {
           >
             <label
               htmlFor="email"
-              className="text-xl 
+              className="text-base
             5xl:text-2xl
             "
             >
@@ -60,7 +60,7 @@ export default function EmailAuthorForm() {
           >
             <label
               htmlFor="message"
-              className="text-xl
+              className="text-base
             5xl:text-2xl
             "
             >
@@ -84,6 +84,7 @@ export default function EmailAuthorForm() {
           <div className="flex flex-col gap-2">
             <label
               className="px-2 
+              xs:text-sm
               md:px-6
               lg:px-2
             5xl:text-xl 5xl:px-6

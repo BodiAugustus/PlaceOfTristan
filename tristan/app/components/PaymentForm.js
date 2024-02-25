@@ -180,7 +180,7 @@ export default function PaymentForm() {
       />
       <form
         className="bg-[#01011d] md:h-[50vh]  flex flex-col items-center justify-around text-white p-2
-      xs:w-[80vw] xs:h-[80vh]
+      xs:w-[80vw] custom-xs-640-defiSectionForm
       xs3:h-[60vh]
       sm:w-[75vw] 
       lg:w-[28vw]
@@ -217,7 +217,7 @@ export default function PaymentForm() {
             type of cryptocurrency sent will be lost!
           </h4>
           <p
-            className="text-center pt-2 px-2
+            className="text-center pt-2 px-2 custom-xs-448-defiSectionForm
           xs:pt-0
           sm:pt-4
           md:text-2xl md:pt-14
