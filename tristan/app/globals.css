@@ -422,6 +422,52 @@
   }
 }
 
+@media (min-width: 360px) and (min-height: 680px) {
+  .custom-xs3-680-projectSection {
+    height: 245vh;
+  }
+
+  .custom-xs3-680-projectSectionCard {
+    height: 75vh;
+  }
+
+  .custom-xs3-680-projectSectionCardBottom {
+    height: 21%;
+  }
+
+  .custom-xs3-680-defiSectionWhole {
+    height: 245vh;
+  }
+
+  .custom-xs3-680-defiSection {
+    height: 235vh;
+  }
+
+  .custom-xs3-680-defiSectionForm {
+    height: 60vh;
+  }
+
+  .custom-xs3-680-authorSection {
+    height: 260vh;
+  }
+
+  .custom-xs3-680-authorSectionContainer {
+    height: 250vh;
+  }
+
+  .custom-xs3-680-authorSectionContainerForm {
+    height: 75vh;
+  }
+
+  .custom-xs3-680-skillsSecyion {
+    height: 85vh;
+  }
+
+  .custom-xs3-68360-footer {
+    height: 45vh;
+  }
+}
+
 @media (min-width: 370px) and (min-height: 550px) {
   .custom-xs4-550-heroList {
     padding-top: 5rem;

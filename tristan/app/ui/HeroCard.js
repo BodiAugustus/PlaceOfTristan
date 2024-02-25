@@ -83,7 +83,7 @@ export default function HeroCard({
                 sm:text-2xl 
                 
                 lg:w-[80%] lg:text-base lg:mb-2 
-                xl:text-xl xl:p-2
+                2xl:text-xl xl:p-2
               4xl:text-2xl"
               >
                 <div>Wrong network,</div>
