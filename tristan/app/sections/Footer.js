@@ -8,7 +8,7 @@ export default function Footer() {
     custom-xs3-680-footer
     custom-xs5-850-footer
     custom-xs6-780-footer 
-    xl:h-[45vh] "
+    2xl:h-[45vh] "
     >
       <Link
         href="#"
