@@ -45,6 +45,7 @@ export default function HeroCard({
         xs:z-20 
         
         custom-xs4-550-heroCard
+        custom-xs5-850-heroCard
         custom-xs6-650-heroCard
         custom-xs6-780-heroCard
         sm:w-[80%] md:h-[70%] 

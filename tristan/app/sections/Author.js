@@ -13,6 +13,7 @@ export default function Author() {
       custom-xs4-660-authorSection
       custom-xs4-550-authorSection
       custom-xs5-690-authorSection
+      custom-xs5-850-authorSection
       custom-xs6-650-authorSection
       custom-xs6-780-authorSection
       custom-xs8-715-authorSection
@@ -38,7 +39,7 @@ export default function Author() {
         custom-xs4-660-authorSectionContainer
         custom-xs4-550-authorSectionContainer
         custom-xs5-690-authorSectionContainer
-   
+        custom-xs5-850-authorSectionContainer
         custom-xs6-650-authorSectionContainer
         custom-xs6-780-authorSectionContainer
         custom-xs8-715-authorSectionContainer

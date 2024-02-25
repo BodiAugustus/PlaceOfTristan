@@ -219,6 +219,7 @@ export default function PaymentForm() {
           <p
             className="text-center pt-2 px-2 custom-xs-448-defiSectionForm
           xs:pt-0
+          xs5:text-base
           sm:pt-4
           md:text-2xl md:pt-14
           lg:text-xl lg:pt-2

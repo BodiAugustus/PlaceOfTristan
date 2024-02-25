@@ -43,6 +43,7 @@ const ProjectCard = () => {
             custom-xs-560-projectSectionCard
             custom-xs-650-projectSectionCard 
             custom-xs4-550-projectSectionCard
+            custom-xs5-850-projectSectionCard
             custom-xs-660-projectSectionCard 
             custom-xs6-650-projectSectionCard
             custom-xs6-780-projectSectionCard
