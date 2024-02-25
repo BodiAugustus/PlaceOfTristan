@@ -1,5 +1,5 @@
 // Nav.js
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { GiDrakkar } from "react-icons/gi";
 import { lato } from "@/app/ui/fonts";
 import Link from "next/link";
@@ -16,7 +16,18 @@ export default function Nav({
   setIsActive,
 }) {
   // const mobileMenuRef = useRef(null);
-
+  useEffect(() => {
+    document.querySelectorAll(".nav-link").forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault(); // Prevent default anchor link behavior
+        const targetId = e.target.getAttribute("href").substring(1); // Remove '#' from href
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+    });
+  }, []);
   return (
     <nav
       className={`w-[100vw] h-[12vh] px-4 flex navbar items-center justify-between ${lato.className} max-w-[2200px] `}
@@ -41,24 +52,24 @@ export default function Nav({
       >
         <li>
           <Link
-            href="/#projects"
-            className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 inline-block transform-origin-center-bottom hover:scale-105 active:scale-100 w-[10rem]"
+            href="/projects"
+            className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 inline-block transform-origin-center-bottom hover:scale-105 active:scale-100 w-[10rem] nav-link"
           >
             Projects
           </Link>
         </li>
         <li>
           <Link
-            href="/#defi"
-            className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 inline-block transform-origin-center-bottom hover:scale-105 active:scale-100 w-[6rem]"
+            href="/defi"
+            className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 inline-block transform-origin-center-bottom hover:scale-105 active:scale-100 w-[6rem] nav-link"
           >
             DeFi
           </Link>
         </li>
         <li>
           <Link
-            href="/#books"
-            className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 inline-block transform-origin-center-bottom hover:scale-105 active:scale-100 w-[7.5rem]"
+            href="/books"
+            className="cursor-pointer custom-underline active:text-[#0a3d62] transition-all duration-300 inline-block transform-origin-center-bottom hover:scale-105 active:scale-100 w-[7.5rem] nav-link"
           >
             Books
           </Link>
