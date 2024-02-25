@@ -589,7 +589,7 @@
   }
 }
 
-@media (min-width: 410px) and (min-height: 715px) {
+@media (min-width: 410px) and (min-height: 675px) {
   .custom-xs8-715-authorSection {
     height: 280vh;
   }
