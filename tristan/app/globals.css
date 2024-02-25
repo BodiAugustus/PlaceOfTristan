@@ -515,26 +515,26 @@
   }
 
   .custom-xs5-850-projectSection {
-    height: 230vh;
+    height: 215vh;
   }
 
   .custom-xs5-850-projectSectionCard {
-    height: 70vh;
+    height: 65vh;
   }
   .custom-xs5-850-authorSection {
-    height: 245vh;
-  }
-
-  .custom-xs5-850-authorSectionContainer {
     height: 235vh;
   }
 
+  .custom-xs5-850-authorSectionContainer {
+    height: 225vh;
+  }
+
   .custom-xs5-850-authorSectionContainerForm {
-    height: 65vh;
+    height: 60vh;
   }
 
   .custom-xs5-850-skillsSecyion {
-    height: 65vh;
+    height: 60vh;
   }
 
   .custom-xs5-850-footer {
