@@ -24,7 +24,7 @@ export const showcase = [
     description:
       "Decentralized web application running on the Sonic blockchain. Built using NextJS, Tailwind CSS, Hardhat and Solidity. Allows staking and fund management.",
     link: "https://www.ashleydefi.com",
-    date: "2025",
+    date: "25",
     github: "https://github.com/BodiAugustus/ashley_defi",
   },
   {
@@ -34,17 +34,17 @@ export const showcase = [
     description:
       "Full-stack web application utilizing Stripe for payments. Built with NextJS and Tailwind CSS. Uses both MongoDB & Firebase for data storage with a built-in API.",
     link: "https://www.codeworld.io",
-    date: "2023",
+    date: "2024",
     github: "https://github.com/BodiAugustus/codeWorld",
   },
   {
-    name: "Ashley Capital",
+    name: "Ashley Capital V1",
     id: "2a35",
     image: "/Ashley-capital-logo.webp",
     description:
       "Decentralized web application running on the Fantom blockchain. Built using NextJS, Tailwind CSS, Truffle Suites and Solidity. Allows subscriptions via the MetaMask wallet.",
     link: "https://ashley-defi.vercel.app/",
-    date: "2023",
+    date: "23",
     github: "https://github.com/BodiAugustus/ashley_defi",
   },
 
