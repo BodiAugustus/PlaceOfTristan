@@ -14,7 +14,6 @@ export default function Home() {
   const [userAddress, setUserAddress] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [currentNetworkId, setCurrentNetworkId] = useState("");
-
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
@@ -32,7 +31,6 @@ export default function Home() {
     };
 
     fetchNetwork();
-
     const handleNetworkChanged = (hexChainId) => {
       const networkId = parseInt(hexChainId, 16).toString(); // Convert to decimal string
       setCurrentNetworkId(networkId);

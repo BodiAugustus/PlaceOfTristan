@@ -1,5 +1,4 @@
 import ProjectCard from "../ui/ProjectCard";
-import Card from "../ui/card";
 
 export default function Projects() {
   return (

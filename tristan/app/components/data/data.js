@@ -18,6 +18,16 @@ export const links = [
 
 export const showcase = [
   {
+    name: "Ashley Capital V2",
+    id: "2a36",
+    image: "/Ashley-capital-logo.webp",
+    description:
+      "Decentralized web application running on the Sonic blockchain. Built using NextJS, Tailwind CSS, Hardhat and Solidity. Allows staking and fund management.",
+    link: "https://www.ashleydefi.com",
+    date: "2025",
+    github: "https://github.com/BodiAugustus/ashley_defi",
+  },
+  {
     name: "Code World",
     id: "2a36",
     image: "/cw.jpeg",
@@ -33,7 +43,7 @@ export const showcase = [
     image: "/Ashley-capital-logo.webp",
     description:
       "Decentralized web application running on the Fantom blockchain. Built using NextJS, Tailwind CSS, Truffle Suites and Solidity. Allows subscriptions via the MetaMask wallet.",
-    link: "https://www.ashleydefi.com",
+    link: "https://ashley-defi.vercel.app/",
     date: "2023",
     github: "https://github.com/BodiAugustus/ashley_defi",
   },
@@ -58,16 +68,16 @@ export const showcase = [
     date: "2023",
     github: "https://github.com/MagentaSpruce/shepherd",
   },
-  {
-    name: "Hot in the Biscuit",
-    id: "2a399",
-    image: "/bonnie.webp",
-    description:
-      "Built using vanilla JavaScript, HTML5 and CSS3 for a local business. Includes custom logo and full menu design with 3rd-party integration to the Food Panda delivery app.",
-    link: "https://www.hotinthebiscuit.com",
-    date: "22",
-    github: "https://github.com/TrissNepps/hotinthebiscuitsamui",
-  },
+  // {
+  //   name: "Hot in the Biscuit",
+  //   id: "2a399",
+  //   image: "/bonnie.webp",
+  //   description:
+  //     "Built using vanilla JavaScript, HTML5 and CSS3 for a local business. Includes custom logo and full menu design with 3rd-party integration to the Food Panda delivery app.",
+  //   link: "https://www.hotinthebiscuit.com",
+  //   date: "22",
+  //   github: "https://github.com/TrissNepps/hotinthebiscuitsamui",
+  // },
 
   // {
   //   name: "Nettle's Herbs",

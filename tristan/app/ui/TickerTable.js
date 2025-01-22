@@ -14,7 +14,7 @@ const fetcher = async (url) => {
 
     const json = await res.json();
     // Assuming the first pair is the one you're interested in.
-    // You might need logic here to select the correct pair if there are multiple.
+
     const priceUsd = json.pairs[0]?.priceUsd;
     return priceUsd ? parseFloat(priceUsd).toFixed(4) : null;
   } catch (error) {

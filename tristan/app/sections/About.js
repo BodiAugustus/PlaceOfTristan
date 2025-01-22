@@ -1,7 +1,7 @@
 import Image from "next/image";
 import SpaceImg from "../../public/space.webp";
-import Roadmap from "../../public/roadmap.png";
-import Roadmap2 from "../../public/roadmapMini.png";
+import Roadmap from "../../public/new2.png";
+import Roadmap2 from "../../public/newone.png";
 
 export default function About() {
   return (

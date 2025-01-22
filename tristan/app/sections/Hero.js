@@ -14,8 +14,8 @@ export default function Hero({
     <div
       className={`${
         isActive
-          ? "invisible h-[88vh]"
-          : `w-[100vw] h-[88vh] ${playfair.className}  max-w-[2200px] z-0`
+          ? "invisible h-auto"
+          : `w-[100vw] h-auto ${playfair.className}  max-w-[2200px] z-0`
       }`}
     >
       <div className="flex  justify-center items-center xs:relative z-10 xs:pt-4 xl:pt-24">
